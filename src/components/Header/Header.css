@@ -1,6 +1,5 @@
 .Header {
-  min-height: 50vh;
-  background-color: aliceblue;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,4 +14,7 @@
 
 .Header h1 {
   margin: 0;
+  text-align: center;
+  font-size: 1.9rem;
+  letter-spacing: .1em;
 }

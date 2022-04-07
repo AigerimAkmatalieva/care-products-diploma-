@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header className="Header" style={style}>
-      <h1>Capsule collection</h1>
+      <h1>Care cosmetics</h1>
     </header>
   );
 }
