@@ -1,12 +1,7 @@
 import "./Nav.css";
-import headerImage from "../../assets/search1.svg";
+
 
 function Nav() {
-  const style = {
-    backgroundImage: `url(${headerImage})`,
-  };
-
-
   return (
     <nav className="Nav">
       <ul>

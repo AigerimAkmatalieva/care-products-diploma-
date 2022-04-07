@@ -3,9 +3,9 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgba(238, 228, 218, 1);
-  color: #0b1c2c;
+  color: rgb(194, 190, 190);
   padding: 0 1.5rem;
-  font-size: 1.3rem;
+  font-size: 1.9rem;
   letter-spacing: .1em;
 
   position: sticky;
@@ -22,10 +22,11 @@
 .Nav a {
   display: block;
   padding: 1rem;
-  color: black;
+  color: rgb(194, 190, 190);
   font-size: 1rem;
   text-decoration: none;
 }
 .Nav a:hover {
+  color: white;
   background-color: rgba(0, 0, 0, .1);
 }
