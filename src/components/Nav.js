@@ -21,7 +21,7 @@ function Nav() {
       <div>Care Products</div>
       <ul>
         <li><a href="/">Contacts</a></li>
-        <li><a href="#">Shop</a></li>
+        <li><a href="#">Search</a></li>
         <li><a href="#">Sign up</a></li>
       </ul>
     </nav>
