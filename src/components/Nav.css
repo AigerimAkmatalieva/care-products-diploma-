@@ -1,0 +1,31 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(238, 228, 218, 1);
+  color: #0b1c2c;
+  padding: 0 1.5rem;
+  font-size: 1.3rem;
+  letter-spacing: .1em;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.Nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.Nav a {
+  display: block;
+  padding: 1rem;
+  color: black;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.Nav a:hover {
+  background-color: rgba(0, 0, 0, .1);
+}
