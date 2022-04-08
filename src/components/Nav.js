@@ -1,16 +1,7 @@
 import "./Nav.css";
-import navImages from "../../src/assets/search1.svg"
-import nav1Images from "../../src/assets/search2.svg"
 
 function Nav() {
-  const style1 = {
-    backgroundImage: `url(${navImages},)`,
-    backgroundRepeat: "no-repeat"
-  }
-  const style2 = {
-    backgroundImage: `url(${nav1Images},)`,
-    backgroundRepeat: "no-repeat"
-  }
+ 
   return (
     <nav className="Nav">
       <ul>
