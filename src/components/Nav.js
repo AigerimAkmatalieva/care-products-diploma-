@@ -14,15 +14,15 @@ function Nav() {
   return (
     <nav className="Nav">
       <ul>
-        <li><a href="#">Catalog</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Delivery</a></li>
+        <li><a href="https://www.google.com/">Catalog</a></li>
+        <li><a href="https://www.google.com/">About</a></li>
+        <li><a href="https://www.google.com/">Delivery</a></li>
       </ul>
       <div>Care Products</div>
       <ul>
-        <li><a href="/">Contacts</a></li>
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Sign up</a></li>
+        <li><a href="https://www.google.com/">Contacts</a></li>
+        <li><a href="https://www.google.com/">Search</a></li>
+        <li><a href="https://www.google.com/">Sign up</a></li>
       </ul>
     </nav>
   );
