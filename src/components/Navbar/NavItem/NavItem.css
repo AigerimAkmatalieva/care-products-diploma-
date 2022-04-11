@@ -1,0 +1,12 @@
+.NavItem a {
+  display: block;
+  padding: 1rem;
+  color: rgb(194, 190, 190);
+  font-size: 1rem;
+  text-decoration: none;
+}
+.NavItem a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, .1);
+  border-bottom: 3px solid black;
+}
