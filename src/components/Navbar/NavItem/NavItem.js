@@ -1,12 +1,14 @@
+import { NavLink } from "react-router-dom";
 import "./NavItem.css";
 
 function NavItem(props) {
- 
   return (
     <li className="NavItem">
-      <a href={props.url}>{props.children}</a>
+      <NavLink to={props.url}>
+        {props.children}
+      </NavLink>
     </li>
-  )
+  );
 }
 
 export default NavItem;
