@@ -1,23 +1,10 @@
-import "./Nav.css";
+import "./Logo.css";
 
-function Nav() {
+function Logo() {
  
-  return (
-    <nav className="Nav">
-      <ul>
-        <li><a href="https://www.google.com/">Catalog</a></li>
-        <li><a href="https://www.google.com/">About</a></li>
-        <li><a href="https://www.google.com/">Delivery</a></li>
-      </ul>
-      <div>Care Products</div>
-      <ul>
-        <li><a href="https://www.google.com/">Contacts</a></li>
-        <li><a href="https://www.google.com/">Search</a></li>
-        <li><a href="https://www.google.com/">Sign up</a></li>
-      </ul>
-    </nav>
-  );
-  
+  return  (
+    <div className="Logo">Care Products</div>
+  )
 }
 
-export default Nav;
+export default Logo;

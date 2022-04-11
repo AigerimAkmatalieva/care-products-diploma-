@@ -1,4 +1,5 @@
 import "./Nav.css";
+import Logo from "../user-interface/Logo";
 
 function Nav() {
  
@@ -9,7 +10,7 @@ function Nav() {
         <li><a href="https://www.google.com/">About</a></li>
         <li><a href="https://www.google.com/">Delivery</a></li>
       </ul>
-      <div>Care Products</div>
+      <Logo />
       <ul>
         <li><a href="https://www.google.com/">Contacts</a></li>
         <li><a href="https://www.google.com/">Search</a></li>
