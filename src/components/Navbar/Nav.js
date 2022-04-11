@@ -1,20 +1,21 @@
 import "./Nav.css";
 import Logo from "../user-interface/Logo";
+import NavItem from "./NavItem/NavItem";
 
 function Nav() {
  
   return (
     <nav className="Nav">
       <ul>
-        <li><a href="https://www.google.com/">Catalog</a></li>
-        <li><a href="https://www.google.com/">About</a></li>
-        <li><a href="https://www.google.com/">Delivery</a></li>
+        <NavItem url="/">Catalog</NavItem>
+        <NavItem url="/">About</NavItem>
+        <NavItem url="/">Delivery</NavItem>
       </ul>
       <Logo />
       <ul>
-        <li><a href="https://www.google.com/">Contacts</a></li>
-        <li><a href="https://www.google.com/">Search</a></li>
-        <li><a href="https://www.google.com/">Sign up</a></li>
+      <NavItem url="/">Contacts</NavItem>
+      <NavItem url="/">Search</NavItem>
+      <NavItem url="/">Sign up</NavItem>
       </ul>
     </nav>
   );
