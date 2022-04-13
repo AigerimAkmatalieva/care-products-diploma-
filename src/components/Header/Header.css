@@ -13,8 +13,7 @@
 }
 
 .Header h1 {
-  margin: 0;
-  text-align: center;
+  margin-left: 30px;
   font-size: 1.9rem;
   letter-spacing: .1em;
 }
