@@ -9,8 +9,6 @@ function Header() {
   return (
     <header className="Header" style={style}>
       <h1>Care products</h1>
-      <p>Shop best selling skin care products. Browse our selection of popular moisturizers, serums and more to get gorgeous skin now.
-</p>
     </header>
   );
 }
