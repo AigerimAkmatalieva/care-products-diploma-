@@ -9,7 +9,6 @@ function Header() {
   return (
     <header className="Header" style={style}>
       <h1>Care products</h1>
- 
     </header>
   );
 }
