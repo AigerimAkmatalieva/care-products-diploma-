@@ -16,8 +16,9 @@ function Nav() {
       <Logo />
       <ul>
       <NavItem url="/contacts">Contacts</NavItem>
-      <NavItem url="/search">  <img src={logo} alt="" className="logotip" /></NavItem>
-      <NavItem url="/signup">Sign up</NavItem>
+      <NavItem url="/search">  <img src={search} alt="" className="logotip" /></NavItem>
+      <NavItem url="/orders"><img src={orders} alt="" className="logotip" /></NavItem>
+      <NavItem url="/signup"><img src={signup} alt="" className="logotip" /></NavItem>
       </ul>
     </nav>
   );
