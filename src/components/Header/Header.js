@@ -1,9 +1,9 @@
 import "./Header.css";
-import headerImage from "../../assets/header.svg";
+import headerImage from "../../assets/header2.svg";
 
 function Header() {
   const style = {
-    backgroundImage: `url(${headerImage})`,
+    backgroundImage: `url(${header2Image})`,
   };
 
   return (
