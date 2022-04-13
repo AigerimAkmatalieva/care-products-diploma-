@@ -1,5 +1,5 @@
 import "./Header.css";
-import headerImage from "../../assets/header2.svg";
+import header2Image from "../../assets/header2.svg";
 
 function Header() {
   const style = {
