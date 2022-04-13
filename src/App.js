@@ -1,4 +1,4 @@
-import Nav from "./components/Nav";
+import Nav from "./components/Navbar/Nav";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
