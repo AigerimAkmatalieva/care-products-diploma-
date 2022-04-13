@@ -1,6 +1,7 @@
 import "./Nav.css";
 import Logo from "../user-interface/Logo";
-import NavItem from "./NavItem/NavItem";
+import NavItem from "../Navbar."
+
 
 function Nav() {
  

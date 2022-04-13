@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 function NavItem(props) {
   return (
     <li className="NavItem">
-      <NavLink to={props.url}>
+      <Link to={props.url}>
         {props.children}
-      </NavLink>
+      </Link>
     </li>
   );
 }
