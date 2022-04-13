@@ -1,7 +1,9 @@
 import "./Nav.css";
 import Logo from "../user-interface/Logo";
-import NavItem from "../Navbar/NavItem/NavItem"
-import logo from "../../assets/search1.svg"
+import NavItem from "../Navbar/NavItem/NavItem";
+import search from "../../assets/search1.svg";
+import signup from "../../assets/search2.svg";
+import orders from "../../assets/search3.svg";
 
 
 function Nav() {
