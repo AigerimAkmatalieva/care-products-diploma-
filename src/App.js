@@ -17,7 +17,7 @@ function App() {
      <Nav />
      <Header />
 
-9
+
      <Routes>
        <Route path="/about" element={<About />}/>
        <Route path="/catalog" element={<Catalog />}/>
