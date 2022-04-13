@@ -7,15 +7,15 @@ function Nav() {
   return (
     <nav className="Nav">
       <ul>
-        <NavItem url="/">Catalog</NavItem>
-        <NavItem url="/">About</NavItem>
-        <NavItem url="/">Delivery</NavItem>
+        <NavItem url="/catalog">Catalog</NavItem>
+        <NavItem url="/about">About</NavItem>
+        <NavItem url="/delivery">Delivery</NavItem>
       </ul>
       <Logo />
       <ul>
-      <NavItem url="/">Contacts</NavItem>
-      <NavItem url="/">Search</NavItem>
-      <NavItem url="/">Sign up</NavItem>
+      <NavItem url="/contacts">Contacts</NavItem>
+      <NavItem url="/search">Search</NavItem>
+      <NavItem url="/signup">Sign up</NavItem>
       </ul>
     </nav>
   );
