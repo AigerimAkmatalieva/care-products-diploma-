@@ -17,9 +17,8 @@
   font-size: 1.9rem;
   letter-spacing: .1em;
 }
-.Header button {
-  width: 120px;
-  height: 35px;
-  background-color: rgba(238, 228, 218, 1);
-  color: rgb(163, 160, 160);
+.Header p {
+  margin-left: 30px;
+  font-size: 1.9rem;
+  letter-spacing: .1em;
 }
