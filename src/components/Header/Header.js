@@ -3,7 +3,7 @@ import header from "../../assets/header3.svg";
 
 function Header() {
   const style = {
-    backgroundImage: `url(${header3Image})`,
+    backgroundImage: `url(${header})`,
   };
 
   return (
