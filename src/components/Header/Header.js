@@ -9,6 +9,7 @@ function Header() {
     <header className="Header" style={style}>
       <h1>Get Your Best Cosmetic Products Here</h1>
       <p>Lorem Ipsum is simply dummy text of the <br/> printing and typesetting industry. <br/></p>
+      <button>Shop now</button>
     </header>
   );
 }

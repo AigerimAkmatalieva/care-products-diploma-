@@ -28,3 +28,11 @@
   letter-spacing: .1em;
   color: black;
 }
+.Header button {
+  width: 150px;
+  height: 35px;
+  background-color:  #F5ECE3;
+  font-size: 1.1rem;
+  letter-spacing: .1em;
+  color: black;
+}
