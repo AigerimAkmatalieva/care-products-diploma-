@@ -1,5 +1,5 @@
 import "../pages/pages.css";
-import React, { Component } from "react";
+import React, { components } from "react";
 import CarouselBox from "../components/CarouselBox.js";
 
 
