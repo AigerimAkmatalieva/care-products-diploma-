@@ -17,7 +17,6 @@ function Nav() {
       </ul>
       <Logo />
       <ul>
-      <NavItem url="/contacts">Contacts</NavItem>
       <NavItem url="/search">  <img src={search} alt="" className="logotip" /></NavItem>
       <NavItem url="/orders"><img src={orders} alt="" className="logotip" /></NavItem>
       <NavItem url="/signup"><img src={signup} alt="" className="logotip" /></NavItem>
