@@ -1,9 +1,9 @@
 import "./Nav.css";
 import Logo from "../user-interface/Logo";
 import NavItem from "../Navbar/NavItem/NavItem";
-import search from "../../assets/search1.svg";
-import signup from "../../assets/search2.svg";
-import orders from "../../assets/search3.svg";
+import search from "../../assets/search.svg";
+import orders from "../../assets/Orders.svg";
+import Contacts from "../../pages/Contacts.svg";
 
 
 function Nav() {
@@ -20,7 +20,7 @@ function Nav() {
       <NavItem url="/contacts">Contacts</NavItem>
       <NavItem url="/search">  <img src={search} alt="" className="logotip" /></NavItem>
       <NavItem url="/orders"><img src={orders} alt="" className="logotip" /></NavItem>
-      <NavItem url="/signup"><img src={signup} alt="" className="logotip" /></NavItem>
+      <NavItem url="/signup"><img src={Contacts} alt="" className="logotip" /></NavItem>
       </ul>
     </nav>
   );
