@@ -3,7 +3,7 @@ import Logo from "../user-interface/Logo";
 import NavItem from "../Navbar/NavItem/NavItem";
 import search from "../../assets/search.svg";
 import orders from "../../assets/orders.svg";
-import signup from "../../pages/contacts.svg";
+import signup from "../../assets/icons.svg";
 
 
 function Nav() {
