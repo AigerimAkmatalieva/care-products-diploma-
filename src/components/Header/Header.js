@@ -9,7 +9,7 @@ function Header() {
   return (
     <header className="Header" style={style}>
       <h1>Get Your Best Cosmetic Products Here</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+      <p>Lorem Ipsum is simply dummy text of the <br/> printing and typesetting industry. <br/></p>
     </header>
   );
 }
