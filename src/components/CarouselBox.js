@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+/*import React, {Component} from "react";
 import Carousel from "react-bootstrap/Carousel"
 import header1 from "../assets/header2.svg"
 import header2 from "../assets/header3.svg"
@@ -34,4 +34,4 @@ function CarouselBox() {
   )
 }
 
-export default CarouselBox;
+export default CarouselBox;*/
