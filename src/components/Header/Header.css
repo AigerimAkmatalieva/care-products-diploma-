@@ -21,3 +21,6 @@
   letter-spacing: .1em;
   color: black;
 }
+.Header div {
+  display: flex;
+}
