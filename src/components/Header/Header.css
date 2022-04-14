@@ -6,7 +6,12 @@
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
+  background-size: cover;
   color: white;
+  background-size: inherit;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .Header h1 {
@@ -20,7 +25,4 @@
   font-size: 1.1rem;
   letter-spacing: .1em;
   color: black;
-}
-.Header div {
-  display: flex;
 }
