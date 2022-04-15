@@ -2,6 +2,8 @@ import Nav from "./components/Navbar/Nav";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Logo from "./components/user-interface/Logo";
+import Logo from "./components/user-interface/Logo.css";
+
 
 import About from "./pages/About";
 import Catalog from "./pages/Catalog";
