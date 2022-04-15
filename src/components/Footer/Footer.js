@@ -11,7 +11,7 @@ function Footer(props) {
     <div className="container">
     <div className="row">
       <div className="col-3">
-        <h1>Company</h1>
+        <h1 className="line-h">Company</h1>
         <p>The brand strives to create respect for its products among the audience, so that the presence of the company's products is a sign of prestige.</p>
         <div className="display">
         <img src={facebook} alt="Facebook" className="facebook" />
