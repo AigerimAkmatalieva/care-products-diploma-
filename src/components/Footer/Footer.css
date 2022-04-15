@@ -73,12 +73,15 @@
   text-align: center;
   color: black;
 }
+.Footer h1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
 .Footer p {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 400;
 }
 .Footer aside {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 400;
-  text-decoration: underline white;
 }
