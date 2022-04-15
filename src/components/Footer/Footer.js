@@ -47,8 +47,7 @@ function Footer(props) {
               We are open to new opportunities, so you can contact our company
               representatives for any questions
             </p>
-            <div className="display">
-            <img src={email} alt="email" className="email" />
+            <div>
               <img src={whatsapp} alt="whatsapp" className="whatsapp" />
             </div>
           </div>
