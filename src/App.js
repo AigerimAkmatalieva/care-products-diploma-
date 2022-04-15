@@ -1,6 +1,7 @@
 import Nav from "./components/Navbar/Nav";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Logo from "./components/user-interface/Logo";
 
 import About from "./pages/About";
 import Catalog from "./pages/Catalog";
@@ -16,8 +17,6 @@ function App() {
     <div className="App">
      <Nav />
      <Header />
-
-
      <Routes>
        <Route path="/about" element={<About />}/>
        <Route path="/catalog" element={<Catalog />}/>
@@ -26,6 +25,7 @@ function App() {
        <Route path="/search" element={<Search />}/>
        <Route path="/signup" element={<Signup />}/>
      </Routes>
+     <Logo/>
      <Footer />
     </div>
   );
