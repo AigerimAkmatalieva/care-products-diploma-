@@ -17,9 +17,9 @@ function Footer(props) {
               of prestige.
             </p>
             <div className="display">
-              <img src={facebook} alt="Facebook" className="facebook" />
-              <img src={twitter} alt="Twitter" className="twitter" />
-              <img src={instagram} alt="Instagram" className="instagram" />
+            <a href="/"> <img src={facebook} alt="Facebook" className="facebook" /></a>
+            <a href="/"><img src={twitter} alt="Twitter" className="twitter" /></a>
+            <a href="/"><img src={instagram} alt="Instagram" className="instagram" /></a>
             </div>
           </div>
           <div className="col-3 line-h">
@@ -47,7 +47,7 @@ function Footer(props) {
               representatives for any questions
             </p>
             <div>
-              <img src={whatsapp} alt="whatsapp" className="whatsapp" />
+              <a href="/"><img src={whatsapp} alt="whatsapp" className="whatsapp" /></a>
             </div>
           </div>
         </div>
