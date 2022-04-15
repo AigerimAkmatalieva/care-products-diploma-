@@ -19,7 +19,7 @@ function Footer(props) {
         <img src={instagram} alt="Instagram" className="instagram" />
         </div>
       </div>
-      <div className="col-3">
+      <div className="col-3 line-h">
         <h1>Navigation</h1>
         <aside>Product catalog</aside>
         <aside>About company</aside>
@@ -28,7 +28,7 @@ function Footer(props) {
         <aside>Partners</aside>
         <aside>Privacy Policy</aside>
       </div>
-      <div className="col-3">
+      <div className="col-3 line-h">
         <h1>Products</h1>
         <aside>Care cosmetics</aside>
         <aside>Eyebrow cosmetics</aside>

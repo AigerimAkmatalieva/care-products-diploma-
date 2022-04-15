@@ -72,6 +72,8 @@
   padding: 1rem;
   text-align: center;
   color: black;
+}
+.Footer .line-h {
   line-height: 50px;
 }
 .Footer h1 {
@@ -88,5 +90,5 @@
 }
 .Footer .display {
   display: flex;
-  margin: 20px;
+  margin-left: 25px;
 }
