@@ -17,9 +17,16 @@ function Footer(props) {
               of prestige.
             </p>
             <div className="display">
-            <a href="/"> <img src={facebook} alt="Facebook" className="facebook" /></a>
-            <a href="/"><img src={twitter} alt="Twitter" className="twitter" /></a>
-            <a href="/"><img src={instagram} alt="Instagram" className="instagram" /></a>
+              <a href="/">
+                {" "}
+                <img src={facebook} alt="Facebook" className="facebook" />
+              </a>
+              <a href="/">
+                <img src={twitter} alt="Twitter" className="twitter" />
+              </a>
+              <a href="/">
+                <img src={instagram} alt="Instagram" className="instagram" />
+              </a>
             </div>
           </div>
           <div className="col-3 line-h">
@@ -46,9 +53,9 @@ function Footer(props) {
               We are open to new opportunities, so you can contact our company
               representatives for any questions
             </p>
-            <div>
-              <a href="/"><img src={whatsapp} alt="whatsapp" className="whatsapp" /></a>
-            </div>
+            <a href="/">
+              <img src={whatsapp} alt="whatsapp" className="whatsapp" />
+            </a>
           </div>
         </div>
       </div>
