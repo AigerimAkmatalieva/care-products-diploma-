@@ -1,4 +1,9 @@
 import "./Footer.css";
+import facebook from "../../assets/facebook.svg";
+import twitter from "../../assets/twitter.svg";
+import instagram from "../../assets/instagram.svg";
+
+
 
 function Footer(props) {
   return (
@@ -8,6 +13,11 @@ function Footer(props) {
       <div className="col-3">
         <h1>Company</h1>
         <p>The brand strives to create respect for its products among the audience, so that the presence of the company's products is a sign of prestige.</p>
+        <div className="display">
+        <img src={facebook} alt="Facebook" className="facebook" />
+        <img src={twitter} alt="Twitter" className="twitter" />
+        <img src={instagram} alt="Instagram" className="instagram" />
+        </div>
       </div>
       <div className="col-3">
         <h1>Navigation</h1>
