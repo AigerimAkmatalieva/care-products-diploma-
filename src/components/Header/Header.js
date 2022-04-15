@@ -6,7 +6,7 @@ function Header() {
     backgroundImage: `url(${header})`,
   };
   return (
-    <header className="Header" style={style}>
+    <header className="Header container" style={style}>
       <h1>Get Your Best Cosmetic Products Here</h1>
       <p>Lorem Ipsum is simply dummy text of the <br/> printing and typesetting industry. <br/></p>
     </header>
