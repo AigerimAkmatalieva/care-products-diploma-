@@ -2,6 +2,8 @@ import "./Footer.css";
 import facebook from "../../assets/facebook.svg";
 import twitter from "../../assets/twitter.svg";
 import instagram from "../../assets/instagram.svg";
+import email from "../../assets/email.svg";
+import whatsapp from "../../assets/whatsapp.svg";
 
 function Footer(props) {
   return (
@@ -45,6 +47,10 @@ function Footer(props) {
               We are open to new opportunities, so you can contact our company
               representatives for any questions
             </p>
+            <div className="display">
+            <img src={email} alt="email" className="email" />
+              <img src={whatsapp} alt="whatsapp" className="whatsapp" />
+            </div>
           </div>
         </div>
       </div>
