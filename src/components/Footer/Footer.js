@@ -38,7 +38,7 @@ function Footer(props) {
         <aside>Accessories</aside>
       </div>
       <div className="col-3">
-        <h1>Contacts</h1>
+        <h1 className="line-h">Contacts</h1>
         <p>We are open to new opportunities, so you can contact our company representatives for any questions</p>
       </div>
     </div>
