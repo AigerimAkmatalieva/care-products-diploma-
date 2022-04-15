@@ -67,6 +67,11 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 }
+.container {
+  max-width: 1000px;
+ margin: 0 auto;
+ padding: .5rem;
+}
 .Footer {
   background-color: #F5ECE3;
   padding: 1rem;
