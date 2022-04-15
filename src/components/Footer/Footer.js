@@ -2,7 +2,6 @@ import "./Footer.css";
 import facebook from "../../assets/facebook.svg";
 import twitter from "../../assets/twitter.svg";
 import instagram from "../../assets/instagram.svg";
-import email from "../../assets/email.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 
 function Footer(props) {
