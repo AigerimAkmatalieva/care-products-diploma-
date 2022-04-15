@@ -74,7 +74,7 @@
   color: black;
 }
 .Footer .line-h {
-  line-height: 40px;
+  line-height: 35px;
 }
 .Footer h1 {
   font-size: 1.4rem;
@@ -88,7 +88,7 @@
   font-size: .8rem;
   font-weight: 400;
 }
-.Footer .display img {
+.Footer .display {
   display: flex;
-  margin-left: 25px;
+  margin: 50px;
 }
