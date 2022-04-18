@@ -1,7 +1,4 @@
 .Nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: 
   #F5ECE3;
   color: black;
@@ -13,6 +10,11 @@
   top: 0;
   left: 0;
   right: 0;
+}
+.Nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .Nav ul {
   list-style: none;

@@ -10,6 +10,7 @@ function Nav() {
  
   return (
     <nav className="Nav">
+      <div className="container">
       <ul>
         <NavItem url="/catalog">Catalog</NavItem>
         <NavItem url="/about">About</NavItem>
@@ -21,6 +22,7 @@ function Nav() {
       <NavItem url="/orders"><img src={order} alt="" className="logotip" /></NavItem>
       <NavItem url="/signup"><img src={signup} alt="" className="logotip" /></NavItem>
       </ul>
+      </div>
     </nav>
   );
   

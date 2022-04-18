@@ -2,5 +2,9 @@ body {
   margin: 0;
   font-family: 'Libre Baskerville', serif;
 }
-
+.container {
+  max-width: 987px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 

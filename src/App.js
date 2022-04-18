@@ -17,6 +17,8 @@ function App() {
     <div className="App">
      <Nav />
      <Header />
+
+     
      <Routes>
        <Route path="/about" element={<About />}/>
        <Route path="/catalog" element={<Catalog />}/>
@@ -25,6 +27,8 @@ function App() {
        <Route path="/search" element={<Search />}/>
        <Route path="/signup" element={<Signup />}/>
      </Routes>
+
+
      <Footer />
     </div>
   );
