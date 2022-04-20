@@ -1,36 +1,42 @@
-.container {
-  max-width: 1200px;
- margin: 0 auto;
- padding: .5rem;
-}
 .Header {
-  min-height: 80vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  min-height: 50vh;
+  background-color: aliceblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
   background-size: cover;
   color: white;
-  background-size: inherit;
-  object-fit: cover;
-  object-position: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
+  text-shadow: 0 0 20px rgba(255, 255, 255, .5);
+  position: relative;
+  margin-bottom: 5rem;
 }
 
-.Header h1 {
-  margin-left: 30px;
-  font-size: 1.9rem;
-  letter-spacing: .1em;
-  color: black;
+.Header img {
+  width: 100%;
+  height: 40vh;
+  min-height: 380px;
+  object-fit: cover;
+  object-position: center;
+
+  margin: 2rem 0;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
-.Header p {
-  margin-left: 30px;
-  font-size: 1.1rem;
-  letter-spacing: .1em;
-  color: black;
+.Header section {
+  position: absolute;
+  bottom: -3rem;
+  right: 2rem;
+  max-width: 500px;
+  margin-left: 2rem;
+
+  background-color: white;
+  padding: 0 2rem 0;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.Header h1 {
+  margin: 0;
+  font-size: 2rem;
 }

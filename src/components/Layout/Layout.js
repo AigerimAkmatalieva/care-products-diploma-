@@ -1,7 +1,7 @@
 import Nav from "../Navbar/Nav";
 import Footer from "../Footer/Footer";
 
-function Layout(children) {
+function Layout({ children }) {
   return (
     <main className="Layout">
       <Nav />
