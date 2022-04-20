@@ -3,7 +3,7 @@ import "./Header.css";
 function Header({ image, title, children }) {
   return (
       <header className="Header">
-        <img src={image} alt="Header"/>
+        <img src={image} alt="header"/>
         <section>
           <h1>{title}</h1>
           <p>{children}</p>
