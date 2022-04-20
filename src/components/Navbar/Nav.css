@@ -5,16 +5,16 @@
   padding: 0 1.5rem;
   font-size: 1.9rem;
   letter-spacing: .1em;
-  
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 .Nav .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .Nav ul {
   list-style: none;
