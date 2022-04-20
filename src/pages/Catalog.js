@@ -26,12 +26,6 @@ function Catalog() {
       title: "House blend",
       price: 14,
     },
-    lightRoast: {
-      image: productImage,
-      path: "/",
-      title: "Light roast",
-      price: 13,
-    }
   };
 
   return (
