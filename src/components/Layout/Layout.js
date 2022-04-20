@@ -1,5 +1,5 @@
-import Nav from "./components/Navbar/Nav";
-import Footer from "./components/Footer/Footer";
+import Nav from "../Navbar/Nav";
+import Footer from "../Footer/Footer";
 
 function Layout(children) {
   return (
