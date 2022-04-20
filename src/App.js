@@ -3,7 +3,6 @@ import Catalog from "./pages/Catalog";
 import Contacts from "./pages/Contacts";
 import Delivery from "./pages/Delivery";
 import Search from "./pages/Search";
-import Signup from "./pages/Signup";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 
@@ -14,10 +13,10 @@ function App() {
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/catalog" element={<Catalog />} />
-          <Route path="/contacts" element={<Contacts />} />
           <Route path="/delivery" element={<Delivery />} />
+          <Route path="/contacts" element={<Contacts />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/0rder" element={<Order />} />
         </Routes>
       </Layout>
 
