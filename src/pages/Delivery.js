@@ -1,11 +1,17 @@
-function Contacts() {
- 
+import Header from "../components/Header/Header";
+import headerImage from "../assets/carecard.svg";
+
+function Delivery() {
   return (
-   <article>
-      <h1>Delivery</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt odio rem modi laudantium. Tempora consequatur error natus, neque expedita maiores ut temporibus tempore sed obcaecati quidem nemo molestias nobis.</p>
-   </article>
-  )
+    <>
+      <Header title="Delivery" image={headerImage}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt
+        odio rem modi laudantium. Tempora consequatur error natus, neque
+        expedita maiores ut temporibus tempore sed obcaecati quidem nemo
+        molestias.
+      </Header>
+    </>
+  );
 }
 
-export default Contacts;
+export default Delivery;
