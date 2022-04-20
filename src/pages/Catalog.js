@@ -1,24 +1,27 @@
 import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
 
-import productImage from "../assets/beautycard.svg";
+import productImage from "../assets/header3.svg";
+import beautyImage from "../assets/beautycard.svg";
+import browsImage from "../assets/browscard.svg";
+import careImage from "../assets/carecard.svg";
 
 function Catalog() {
   const products = {
     hazelnut: {
-      image: productImage,
+      image: beautyImage,
       path: "/",
       title: "Hazelnut",
       price: 10,
     },
     darkRoast: {
-      image: productImage,
+      image: browsImage,
       path: "/",
       title: "Dark roast",
       price: 12,
     },
     houseBlend: {
-      image: productImage,
+      image: careImage,
       path: "/",
       title: "House blend",
       price: 14,
