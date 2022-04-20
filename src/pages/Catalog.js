@@ -1,7 +1,7 @@
 import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
 
-import productImage from "../assets/header3.svg";
+import productImage from "../assets/beautycard.svg";
 
 function Catalog() {
   const products = {
