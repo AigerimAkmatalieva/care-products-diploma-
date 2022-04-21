@@ -1,7 +1,7 @@
 import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
 
-import productImage from "../assets/header.svg";
+import productImage from "../assets/header2.svg";
 import beautyImage from "../assets/beautycard.svg";
 import browsImage from "../assets/browscard.svg";
 import careImage from "../assets/carecard.svg";
