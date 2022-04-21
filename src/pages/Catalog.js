@@ -5,6 +5,9 @@ import productImage from "../assets/header.svg";
 import beautyImage from "../assets/beautycard.svg";
 import browsImage from "../assets/browscard.svg";
 import careImage from "../assets/carecard.svg";
+import eyebrowsImage from "../assets/eyebrows.svg";
+import perfectbrowsImage from "../assets/perfectbrows.svg";
+import hennaeyebrowsImage from "../assets/hennaeyebrows.svg";
 
 function Catalog() {
   const products = {
@@ -25,6 +28,24 @@ function Catalog() {
       path: "/",
       title: "House blend",
       price: 14,
+    },
+    houseBlend: {
+      image: eyebrowsImage,
+      path: "/",
+      title: "House blend",
+      price: 16,
+    },
+    houseBlend: {
+      image: perfectbrowsImage,
+      path: "/",
+      title: "House blend",
+      price: 18,
+    },
+    houseBlend: {
+      image: hennaeyebrowsImage,
+      path: "/",
+      title: "House blend",
+      price: 15,
     },
   };
 
