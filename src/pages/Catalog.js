@@ -11,40 +11,40 @@ import hennaeyebrowsImage from "../assets/hennaeyebrows.svg";
 
 function Catalog() {
   const products = {
-    hazelnut: {
+    Beaty: {
       image: beautyImage,
       path: "/",
-      title: "Hazelnut",
+      title: "Beaty",
       price: 10,
     },
-    darkRoast: {
+    Brows: {
       image: browsImage,
       path: "/",
       title: "Dark roast",
       price: 12,
     },
-    houseBlend: {
+    Care: {
       image: careImage,
       path: "/",
-      title: "House blend",
+      title: "Care",
       price: 14,
     },
-    houseBlend: {
+    Eyebrows: {
       image: eyebrowsImage,
       path: "/",
-      title: "House blend",
+      title: "Eye brows",
       price: 16,
     },
-    houseBlend: {
+    Perfectbrows: {
       image: perfectbrowsImage,
       path: "/",
-      title: "House blend",
+      title: "Perfect brows",
       price: 18,
     },
-    houseBlend: {
+    Henna: {
       image: hennaeyebrowsImage,
       path: "/",
-      title: "House blend",
+      title: " Henna eyebrows",
       price: 15,
     },
   };
