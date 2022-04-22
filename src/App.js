@@ -3,6 +3,7 @@ import Catalog from "./pages/Catalog";
 import Contacts from "./pages/Contacts";
 import Delivery from "./pages/Delivery";
 import Search from "./pages/Search";
+import Home from "./pages/Home";
 import Orders from "./pages/Orders"
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
