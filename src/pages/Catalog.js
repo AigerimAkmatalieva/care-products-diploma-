@@ -46,7 +46,7 @@ function Catalog() {
       path: "/",
       title: " Henna eyebrows",
       price: 15,
-    },
+    }
   };
 
   return (
