@@ -1,7 +1,7 @@
 import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
 
-import productImage from "../assets/header2.svg";
+import productImage from "../assets/header.svg";
 import beautyImage from "../assets/beautycard.svg";
 import browsImage from "../assets/browscard.svg";
 import careImage from "../assets/carecard.svg";
@@ -14,13 +14,13 @@ function Catalog() {
     Beaty: {
       image: beautyImage,
       path: "/",
-      title: "Beaty",
+      title: "Beauty",
       price: 10,
     },
     Brows: {
       image: browsImage,
       path: "/",
-      title: "Dark roast",
+      title: "Brows",
       price: 12,
     },
     Care: {
@@ -46,7 +46,7 @@ function Catalog() {
       path: "/",
       title: " Henna eyebrows",
       price: 15,
-    }
+    },
   };
 
   return (
