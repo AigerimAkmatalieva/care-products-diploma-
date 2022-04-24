@@ -6,41 +6,46 @@ import perfectbrowsImage from "../assets/perfectbrows.svg";
 import hennaeyebrowsImage from "../assets/hennaeyebrows.svg";
 
 
-const products = {
-  Beaty: {
+const products = [
+{
     image: beautyImage,
-    path: "/",
+    productId: "Beauty",
     title: "Beaty",
     price: 10,
   },
-  Brows: {
+{
     image: browsImage,
-    path: "/",
+    productId: "Brows",
     title: "Dark roast",
     price: 12,
   },
-  Care: {
+{
     image: careImage,
-    path: "/",
+    productId: "Care",
     title: "Care",
     price: 14,
   },
-  Eyebrows: {
+{
     image: eyebrowsImage,
-    path: "/",
+    productId: "Eye brows",
     title: "Eye brows",
     price: 16,
   },
-  Perfectbrows: {
+{
     image: perfectbrowsImage,
-    path: "/",
+    productId: "Perfect brows",
     title: "Perfect brows",
     price: 18,
   },
-  Henna: {
+{
     image: hennaeyebrowsImage,
-    path: "/",
+    productId: "Henna",
     title: " Henna eyebrows",
     price: 15,
   },
-};
+];
+
+
+export function getProducts() {
+  return products;
+}
