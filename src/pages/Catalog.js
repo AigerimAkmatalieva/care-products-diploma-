@@ -12,7 +12,10 @@ function Catalog() {
       <Header
         title="Catalog"
         image={productImage}>
-        The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt
+        odio rem modi laudantium. Tempora consequatur error natus, neque
+        expedita maiores ut temporibus tempore sed obcaecati quidem nemo
+        molestias.
       </Header>
 
       <ProductList products={getProducts()} />
