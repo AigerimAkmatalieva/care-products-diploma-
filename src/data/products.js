@@ -5,9 +5,8 @@ import eyebrowsImage from "../assets/eyebrows.svg";
 import perfectbrowsImage from "../assets/perfectbrows.svg";
 import hennaeyebrowsImage from "../assets/hennaeyebrows.svg";
 
-
 const products = [
-{
+  {
     image: beautyImage,
     productId: "Beauty",
     title: "Beaty",
@@ -17,7 +16,7 @@ const products = [
     molestias.`,
     price: 10,
   },
-{
+  {
     image: browsImage,
     productId: "Brows",
     title: "Dark roast",
@@ -27,7 +26,7 @@ const products = [
     molestias.`,
     price: 12,
   },
-{
+  {
     image: careImage,
     productId: "Care",
     title: "Care",
@@ -37,7 +36,7 @@ const products = [
     molestias.`,
     price: 14,
   },
-{
+  {
     image: eyebrowsImage,
     productId: "Eye brows",
     title: "Eye brows",
@@ -47,7 +46,7 @@ const products = [
     molestias.`,
     price: 16,
   },
-{
+  {
     image: perfectbrowsImage,
     productId: "Perfect brows",
     title: "Perfect brows",
@@ -57,7 +56,7 @@ const products = [
     molestias.`,
     price: 18,
   },
-{
+  {
     image: hennaeyebrowsImage,
     productId: "Henna",
     title: " Henna eyebrows",
@@ -69,11 +68,8 @@ const products = [
   },
 ];
 
-
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product =>  product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }
