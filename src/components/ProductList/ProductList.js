@@ -2,7 +2,7 @@ import ProductItem from "./ProductItem/ProductItem";
 import classes from "./ProductList.module.css";
 
 function ProductList({ products }) {
-  const productItems = products.map(product => (
+  const productItem = products.map(product => (
     <ProductItem key={product.productId} product={product} />
   ));
 
