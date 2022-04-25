@@ -3,8 +3,7 @@ import classes from "./ProductItem.module.css";
 function ProductItem({ product }) {
   return (
     <div className={classes.ProductItem}>
-      <img src={product.image} />
-      <Link to={product.path}>{product.title}</Link>
+      <img src={product.image} alt ="Product"/>
       <Link to={"/products/" + product.productId}>{product.title}</Link>
       <div className={classes.price}>${product.price}</div>
     </div>
