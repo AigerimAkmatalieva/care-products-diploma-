@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header";
 import ProductList from "../components/ProductList/ProductList";
-import { getProducts } from "../data/products";
+import { getProduct } from "../data/products";
 import productImage from "../assets/header2.svg"
 
 
@@ -18,7 +18,7 @@ function Catalog() {
         molestias.
       </Header>
 
-      <ProductList products={getProducts()} />
+      <ProductList products={getProduct()} />
     </>
   );
 }

@@ -70,7 +70,7 @@ const products = [
 ];
 
 
-export function getProducts(productId) {
+export function getProduct(productId) {
   return products[
     products.findIndex(
       product =>  product.productId === productId
