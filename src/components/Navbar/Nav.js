@@ -22,6 +22,8 @@ function Nav() {
       <NavItem url="/search">  <img src={search} alt="" className="logotip" /></NavItem>
       <NavItem url="/orders"><img src={order} alt="" className="logotip" /></NavItem>
       <NavItem url="/signup"><img src={signup} alt="" className="logotip" /></NavItem>
+
+      <NavToggle />
       </ul>
       </div>
     </nav>
