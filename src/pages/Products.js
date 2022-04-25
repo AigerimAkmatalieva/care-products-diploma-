@@ -5,15 +5,12 @@ import productImage from "../assets/header2.svg";
 
 function Products() {
   return (
-    <>
-      <Header title="Products" image={productImage}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt
-        odio rem modi laudantium. Tempora consequatur error natus, neque
-        expedita maiores ut temporibus tempore sed obcaecati quidem nemo
-        molestias.
-      </Header>
-      <ProductList products={getProduct()} />
-    </>
+     <>
+     <Header className="Header" style={styles}>
+       <h1>Capsule Collection</h1>
+     </Header>
+     <ProductList products={getProduct()} />
+   </>
   );
 }
 
