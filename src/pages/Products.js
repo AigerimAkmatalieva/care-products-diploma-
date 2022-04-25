@@ -4,13 +4,13 @@ import { getProduct } from "../data/products";
 import productImage from "../assets/header2.svg"
 
 
-function Catalog() {
+function Products() {
 
 
   return (
     <>
       <Header
-        title="Catalog"
+        title="Products"
         image={productImage}>
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque incidunt
         odio rem modi laudantium. Tempora consequatur error natus, neque
@@ -23,4 +23,4 @@ function Catalog() {
   );
 }
 
-export default Catalog;
+export default Products;
