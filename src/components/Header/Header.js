@@ -1,14 +1,14 @@
 import "./Header.css";
+import headerImage from "../../assets/header.svg"
 
-function Header({ image, title, children }) {
+function Header() { 
+  const styles = {
+    backgroundImage: `url(${headerImage})`
+  }
   return (
-    <header className="Header">
-      <img src={image} alt="header"/>
-      <section>
-        <h1>{title}</h1>
-        <p>{children}</p>
-      </section>
-    </header>
+      <header className="Header" style={styles} >
+          <h1>Capsule Collection</h1>
+         </header>
   );
 }
 
