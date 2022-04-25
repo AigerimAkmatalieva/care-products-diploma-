@@ -4,6 +4,7 @@ import NavItem from "../Navbar/NavItem/NavItem";
 import search from "../../assets/search.svg";
 import order from "../../assets/order.svg";
 import signup from "../../assets/icons.svg";
+import NavToggle from "./NavToggle/NavToggle";
 
 
 function Nav() {
