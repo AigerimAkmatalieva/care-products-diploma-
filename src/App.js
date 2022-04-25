@@ -1,5 +1,4 @@
 import About from "./pages/About";
-import Products from "./pages/Products";
 import Contacts from "./pages/Contacts";
 import Delivery from "./pages/Delivery";
 import Search from "./pages/Search";
@@ -8,6 +7,7 @@ import Orders from "./pages/Orders"
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";
+import Products from "./pages/Products";
 
 function App() {
   return (
