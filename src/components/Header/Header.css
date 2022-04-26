@@ -1,18 +1,16 @@
 .Header {
-  min-height: 80vh;
-  background-color:   #E5E5E5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-  background-size: cover;
-  color: black;
-  text-shadow: 0 0 20px rgba(255, 255, 255, .5);
   position: relative;
+  margin-bottom: 5rem;
 }
-.Header h1 {
-  margin: 0;
-  font-size: 1.7rem;
-  text-align: center;
-  letter-spacing: .1em;
+
+.Header img {
+  width: 100%;
+  height: 70vh;
+  min-height: 380px;
+  object-fit: cover;
+  object-position: center;
+
+  margin: 1rem 0;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
