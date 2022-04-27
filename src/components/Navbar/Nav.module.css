@@ -21,7 +21,7 @@
   margin: 0;
   display: flex;
 }
-@media (max-width: 600px) {
+@media (max-width: 870px) {
   .Nav ul {
     display: none;
   }

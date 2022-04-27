@@ -4,7 +4,7 @@ import NavItem from "../Navbar/NavItem/NavItem";
 import search from "../../assets/search.svg";
 import orders from "../../assets/orders.svg";
 import contacts from "../../assets/contacts.svg";
-import NavToggle from "./NavToggle/NavToggle";
+
 
 
 function Nav() {
@@ -24,7 +24,6 @@ function Nav() {
       <NavItem url="/search">  <img src={search} alt="search" className="logotip" /></NavItem>
       <NavItem url="/contacts"><img src={contacts} alt="contacts" className="logotip" /></NavItem>
       <NavItem url="/orders"><img src={orders} alt="orders" className="logotip" /></NavItem>
-      <NavToggle />
       </ul>
       </div>
     </nav>
