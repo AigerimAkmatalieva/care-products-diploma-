@@ -1,5 +1,5 @@
+import React from "react";
 import { useParams } from "react-router-dom";
-import Header from "../components/Header/Header";
 import { getProduct } from "../data/products";
 
 function Product() {
@@ -7,12 +7,17 @@ function Product() {
   const product = getProduct(params.productId);
 
   return (
-    <>
-      <Header
-        title={product.title}
-        image={product.image}>
-        {product.description}
-      </Header>
+    < >
+      <div style={{display: "flex", padding: "3rem 5rem"}}>
+        <div style={{padding: "1.3rem", textAlign: "center", lineHeight: "50px"}}>
+          <h2>{product.title}</h2>
+          <p>{product.description}</p>
+          <button style={{width: "120px", height: "30px", backgroundColor: "#F5ECE3"}}>
+           {product.price}$
+          </button>
+        </div>
+        <img style={{width: "400px"}} src={product.image} alt={product.title} />
+      </div>
     </>
   );
 }

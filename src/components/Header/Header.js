@@ -9,6 +9,7 @@ function Header({ image, title, children }) {
       <section>
             <h1>{title}</h1>
             <p>{children}</p>
+            
       </section>
     </header>
   );

@@ -1,12 +1,10 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/beautycard.svg";
 
 function Orders() {
   return (
     <>
     <Header
-      title=""
-      image={headerImage}>
+      title="Orders">
       
     </Header>
   </>

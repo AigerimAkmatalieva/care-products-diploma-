@@ -7,9 +7,8 @@ function Home() {
   return (
     <>
       <Header
-        title=""
+        title="Care Collection"
         image={headerImage}>
-        
       </Header>
     </>
   );

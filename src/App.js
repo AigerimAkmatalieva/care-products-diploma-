@@ -7,14 +7,14 @@ import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";
 import Products from "./pages/Products";
-import Home from "./pages/Home";
+import Home from "./pages/Home"
 
 function App() {
   return (
     <div className="App">
       <Layout>
         <Routes>
-           <Route path="/home" element={<Home />} />
+           <Route path="/home" element={<Home />}  />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:productId" element={<Product />} />

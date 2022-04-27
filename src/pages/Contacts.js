@@ -5,8 +5,8 @@ function Contacts() {
   return (
     <>
     <Header
-      title=""
-      image={headerImage}>
+      title="Contacts"
+      >
       
     </Header>
   </>
