@@ -1,4 +1,4 @@
-import classes from "./Nav.css";
+import classes from "./Nav.module.css";
 import Logo from "../user-interface/Logo";
 import NavItem from "../Navbar/NavItem/NavItem";
 import search from "../../assets/search.svg";
