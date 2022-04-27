@@ -4,7 +4,7 @@ import NavItem from "../Navbar/NavItem/NavItem";
 import search from "../../assets/search.svg";
 import orders from "../../assets/orders.svg";
 import contacts from "../../assets/contacts.svg";
-
+import NavToggle from "./NavToggle/NavToggle";
 
 
 function Nav() {
