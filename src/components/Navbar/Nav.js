@@ -1,4 +1,4 @@
-import "./Nav.css";
+import classes from "./Nav.css";
 import Logo from "../user-interface/Logo";
 import NavItem from "../Navbar/NavItem/NavItem";
 import search from "../../assets/search.svg";
@@ -10,8 +10,8 @@ import NavToggle from "./NavToggle/NavToggle";
 function Nav() {
  
   return (
-    <nav className="Nav">
-      <div className="container">
+    <nav className={classes.Nav}>
+      <div className={classes.container}>
       <NavToggle />
       <ul>
         <NavItem url="/Home">Home</NavItem>
