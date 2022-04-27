@@ -5,7 +5,6 @@ function Orders() {
     <>
     <Header
       title="Orders">
-      
     </Header>
   </>
    );
