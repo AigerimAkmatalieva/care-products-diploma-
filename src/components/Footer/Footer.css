@@ -1,9 +1,8 @@
 
 .Footer {
-  background-color: white;
   padding: 1rem;
   text-align: center;
-  color: black;
+  color: white;
   flex-wrap: wrap;
 }
 .Footer .line-h {
