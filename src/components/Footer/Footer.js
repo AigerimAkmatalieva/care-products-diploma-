@@ -1,8 +1,5 @@
 import "./Footer.css";
-import facebook from "../../assets/facebook.svg";
-import twitter from "../../assets/twitter.svg";
-import instagram from "../../assets/instagram.svg";
-import whatsapp from "../../assets/whatsapp.svg";
+
 
 function Footer(props) {
   return (
@@ -18,14 +15,8 @@ function Footer(props) {
             </p>
             <div className="display">
               <a href="/">
-                {" "}
-                <img src={facebook} alt="Facebook" className="facebook" />
               </a>
               <a href="/">
-                <img src={twitter} alt="Twitter" className="twitter" />
-              </a>
-              <a href="/">
-                <img src={instagram} alt="Instagram" className="instagram" />
               </a>
             </div>
           </div>
@@ -39,7 +30,7 @@ function Footer(props) {
             <aside>Privacy Policy</aside>
           </div>
           <div className="col-3 line-h">
-            <h1>Products</h1>
+            <h1>Opening</h1>
             <aside>Care cosmetics</aside>
             <aside>Eyebrow cosmetics</aside>
             <aside>Decorative cosmetics</aside>
@@ -54,7 +45,7 @@ function Footer(props) {
               representatives for any questions
             </p>
             <a href="/">
-              <img src={whatsapp} alt="whatsapp" className="whatsapp" />
+            <i class="fab fa-twitter"></i>
             </a>
           </div>
         </div>

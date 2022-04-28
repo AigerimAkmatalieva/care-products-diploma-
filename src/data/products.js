@@ -1,52 +1,53 @@
-import beautyImage from "../assets/beautycard.svg";
-import browsImage from "../assets/browscard.svg";
-import careImage from "../assets/carecard.svg";
-import eyebrowsImage from "../assets/eyebrows.svg";
-import perfectbrowsImage from "../assets/perfectbrows.svg";
-import hennaeyebrowsImage from "../assets/hennaeyebrows.svg";
+import menu1Image from "../assets/menu-1.jpg";
+import menu2Image from "../assets/menu-2.jpg";
+import menu3Image from "../assets/menu-3.jpg";
+import menu4Image from "../assets/menu-4.jpg";
+import menu5Image from "../assets/menu-5.jpg";
+import menu6Image from "../assets/menu-6.jpg";
+
 
 const products = [
   {
-    image: beautyImage,
-    productId: "Beauty",
-    title: "Beauty",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione cum odio atque libero velit, quasi, sit accusamus dolor corrupti illo perferendis dolores distinctio nihil sint rerum temporibus placeat quod magnam?`,
-    price: 10,
+    image: menu1Image,
+    productId: "Chicken Burger",
+    title: "Chicken Burger",
+    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
+    price: 115,
   },
   {
-    image: hennaeyebrowsImage,
-    productId: "hennaeyebrows",
-    title: "Henna eyebrows",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione cum odio atque libero velit, quasi, sit accusamus dolor corrupti illo perferendis dolores distinctio nihil sint rerum temporibus placeat quod magnam?`,
-    price: 12,
+    image: menu2Image,
+    productId: "Chicken Burger",
+    title: "Chicken Burger",
+    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
+    price: 115,
   },
   {
-    image: browsImage,
-    productId: "Brows",
-    title: "Brows",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione cum odio atque libero velit, quasi, sit accusamus dolor corrupti illo perferendis dolores distinctio nihil sint rerum temporibus placeat quod magnam?`,
-    price: 12,
+    image: menu3Image,
+    productId: "Chicken Burger",
+    title: "Chicken Burger",
+    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
+    price: 115,
   },
   {
-    image: careImage,
-    productId: "Care",
-    title: "Care",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione cum odio atque libero velit, quasi, sit accusamus dolor corrupti illo perferendis dolores distinctio nihil sint rerum temporibus placeat quod magnam?`,
-    price: 14,
+    image: menu4Image,
+    productId: "Chicken Burger",
+    title: "Chicken Burger",
+    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
+    price: 115,
   },
   {
-    image: eyebrowsImage,
-    productId: "Eyebrows",
-    title: "Eyebrows",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione cum odio atque libero velit, quasi, sit accusamus dolor corrupti illo perferendis dolores distinctio nihil sint rerum temporibus placeat quod magnam?`,
-    price: 13,
+    image: menu5Image,
+    productId: "Chicken Burger",
+    title: "Chicken Burger",
+    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
+    price: 115,
   },
   {
-    image: perfectbrowsImage,
-    productId: "Perfectbrows",
-    title: "Perfectbrows",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione cum odio atque libero velit, quasi, sit accusamus dolor corrupti illo perferendis dolores distinctio nihil sint rerum temporibus placeat quod magnam?`,
-    price: 11,
+    image: menu6Image,
+    productId: "Chicken Burger",
+    title: "Chicken Burger",
+    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
+    price: 115,
   },
 ];
 

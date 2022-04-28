@@ -1,9 +1,10 @@
 
 .Footer {
-  background-color:  #F5ECE3;
+  background-color: white;
   padding: 1rem;
   text-align: center;
   color: black;
+  flex-wrap: wrap;
 }
 .Footer .line-h {
   line-height: 35px;

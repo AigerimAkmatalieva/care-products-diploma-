@@ -1,16 +1,19 @@
 import "./Header.css";
 import React from "react";
 
-function Header({ image, title, children }) {
-
+function Header({ image, title, p, children }) {
   return (
     <header className="Header">
-      <img src={image} alt="img" />
-      <section>
-            <h1>{title}</h1>
-            <p>{children}</p>
-            
-      </section>
+      <div className="row">
+        <div className="col-7">
+          <h1>{title}</h1>
+          <p>{children}</p>
+          <button>{p}</button>
+        </div>
+        <div className="col-5">
+          <img src={image} alt="img" />
+        </div>
+      </div>
     </header>
   );
 }

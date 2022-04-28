@@ -1,5 +1,7 @@
 .Nav .Logo {
   font-size: 1.9rem;
-  letter-spacing: .1em;
   font-weight: bold;
+  letter-spacing: .1em;
+  font-weight: 800;
+  color: orangered;
 }

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Libre Baskerville', serif;
+  background-color: rgb(22, 10, 88);
 }
 .container {
   max-width: 1200px;
