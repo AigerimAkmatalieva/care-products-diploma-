@@ -22,17 +22,17 @@
 }
 .Header h1 {
  color: orangered;
- margin:  4rem 2rem 2rem;
+ margin:  4rem 0 0;
 }
 .Header p {
   color: white;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 .Header button {
   font-family: 'Libre Baskerville', serif;
   background-color: orangered;
   color: white;
-  margin: 1rem 2rem;
+  margin: 1rem 0;
   width: 120px;
   height: 35px;
   font-size: 1rem;
