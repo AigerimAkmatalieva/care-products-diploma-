@@ -1,6 +1,5 @@
 import "./Footer.css";
 
-
 function Footer(props) {
   return (
     <footer className="Footer">
@@ -14,38 +13,27 @@ function Footer(props) {
               of prestige.
             </p>
             <div className="display">
-              <a href="/">
-              </a>
-              <a href="/">
-              </a>
+              <a href="/"></a>
+              <a href="/"></a>
             </div>
           </div>
           <div className="col-3 line-h">
             <h1>Navigation</h1>
-            <aside>Product catalog</aside>
-            <aside>About company</aside>
-            <aside>Bonus program</aside>
-            <aside>Work process</aside>
-            <aside>Partners</aside>
-            <aside>Privacy Policy</aside>
+            <aside>123 Street,New York,USA</aside>
+            <aside>+0123 459 7685</aside>
           </div>
           <div className="col-3 line-h">
             <h1>Opening</h1>
-            <aside>Care cosmetics</aside>
-            <aside>Eyebrow cosmetics</aside>
-            <aside>Decorative cosmetics</aside>
-            <aside>New in the collection</aside>
-            <aside>Box and complect</aside>
-            <aside>Accessories</aside>
+            <aside>Monday-Saturday</aside>
+            <aside>09 A.M-09 P.M</aside>
+            <aside>Sunday</aside>
+            <aside>10 A.M-08 P.M</aside>
           </div>
           <div className="col-3">
-            <h1 className="line-h">Contacts</h1>
-            <p>
-              We are open to new opportunities, so you can contact our company
-              representatives for any questions
-            </p>
+            <h1 className="line-h"> Newsletter</h1>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
             <a href="/">
-            <i class="fab fa-twitter"></i>
+              <i class="fab fa-twitter"></i>
             </a>
           </div>
         </div>
