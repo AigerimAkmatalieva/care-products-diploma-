@@ -26,6 +26,7 @@
   border-top-left-radius: 0;
   border-top-right-radius: 3rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  transition: .2s ease-in-out;
 }
 .ProductItem .price {
   position: absolute;

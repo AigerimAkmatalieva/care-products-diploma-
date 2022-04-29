@@ -1,9 +1,9 @@
-import menu1Image from "../assets/menu-1.jpg";
-import menu2Image from "../assets/menu-2.jpg";
-import menu3Image from "../assets/menu-3.jpg";
-import menu4Image from "../assets/menu-4.jpg";
-import menu5Image from "../assets/menu-5.jpg";
-import menu6Image from "../assets/menu-6.jpg";
+import menu1Image from "../assets/menuheader.jpg";
+import menu2Image from "../assets/headermenu.jpg";
+import menu3Image from "../assets/header.jpg";
+import menu4Image from "../assets/menuheader.jpg";
+import menu5Image from "../assets/headermenu.jpg";
+import menu6Image from "../assets/header.jpg";
 
 
 const products = [

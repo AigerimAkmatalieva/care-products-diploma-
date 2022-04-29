@@ -10,9 +10,9 @@ function Product() {
     < >
       <div style={{display: "flex", padding: "3rem 5rem"}}>
         <div style={{padding: "1.3rem", textAlign: "center", lineHeight: "50px"}}>
-          <h2>{product.title}</h2>
-          <p>{product.description}</p>
-          <button style={{width: "120px", height: "30px", backgroundColor: "#F5ECE3"}}>
+          <h2 style={{color: "orangered"}}>{product.title}</h2>
+          <p style={{color: "white"}}>{product.description}</p>
+          <button style={{width: "120px", height: "30px", backgroundColor: "orangered", color: "white", fontSize: "1rem", fontWeight: "300"}}>
            {product.price}$
           </button>
         </div>

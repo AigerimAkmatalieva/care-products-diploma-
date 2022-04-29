@@ -15,7 +15,7 @@ function Nav() {
         <ul>
           <NavItem url="/home">Home</NavItem>
           <NavItem url="/about">About</NavItem>
-          <NavItem url="/menu">Menu</NavItem>
+          <NavItem url="/products">Menu</NavItem>
           <NavItem url="/service">Service</NavItem>
         </ul>
         <ul>
