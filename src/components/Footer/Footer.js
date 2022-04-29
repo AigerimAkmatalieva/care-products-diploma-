@@ -12,10 +12,6 @@ function Footer(props) {
               audience, so that the presence of the company's products is a sign
               of prestige.
             </p>
-            <div className="display">
-              <a href="/"></a>
-              <a href="/"></a>
-            </div>
           </div>
           <div className="col-3 line-h">
             <h1>Navigation</h1>
