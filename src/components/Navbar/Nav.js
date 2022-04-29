@@ -19,10 +19,10 @@ function Nav() {
           <NavItem url="/service">Service</NavItem>
         </ul>
         <ul>
-          <NavItem url="/contacts"> <img src={contacts} alt="contacts" className="logotip" />
+          <NavItem url="/contacts"> <img src={contacts} alt="contacts"/>
           </NavItem>
           <NavItem url="/nav">
-            <img src={nav} alt="nav" className="logotip" />
+            <img src={nav} alt="nav" />
           </NavItem>
           <NavItem url="/orders">
             <img src={orders} alt="orders" className="logotip" />

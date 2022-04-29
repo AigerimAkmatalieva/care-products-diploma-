@@ -30,3 +30,8 @@
     display: none;
   }
 }
+@media (max-width: 850px) {
+  .Nav ul img .logotip {
+    display: inline-block;
+  }
+}

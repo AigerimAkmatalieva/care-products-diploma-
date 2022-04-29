@@ -12,3 +12,8 @@
 .NavItem a:hover {
   color: orangered;
 }
+@media (max-width: 850px) {
+  .NavItem a {
+    flex: 0 0 100%;
+  }
+}
