@@ -4,6 +4,7 @@
   text-align: center;
   color: white;
   flex-wrap: wrap;
+  border-top: 3px solid orangered;
 }
 .Footer .line-h {
   line-height: 35px;
