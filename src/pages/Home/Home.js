@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/Header/Header";
-import headerImage from "../assets/hero.png";
+import Header from "../../components/Header/Header";
+import headerImage from "../../assets/hero.png";
 
 function Home() {
   return (

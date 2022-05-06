@@ -1,13 +1,10 @@
-import Header from "../components/Header/Header";
-import headerImage from "../assets/pizza.jpg";
+import Header from "../../components/Header/Header";
+import headerImage from "../../assets/aboutsteik.jpg";
 
-function Delivery() {
+function About() {
   return (
     <>
-      <Header
-       title="Services" 
-       image={headerImage} 
-       p="Book a table">
+      <Header title="About Us" image={headerImage} p="Book a table">
         Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
         amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
         clita duo justo magna dolore erat amet
@@ -16,4 +13,4 @@ function Delivery() {
   );
 }
 
-export default Delivery;
+export default About;

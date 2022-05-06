@@ -1,13 +1,13 @@
-import About from "./pages/About";
+import About from "./pages/About/About";
 import Contacts from "./pages/Contacts";
-import Delivery from "./pages/Delivery";
+import Delivery from "./pages/Services/Delivery";
 import Search from "./pages/Search";
 import Orders from "./pages/Orders"
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";
 import Products from "./pages/Products";
-import Home from "./pages/Home"
+import Home from "./pages/Home/Home"
 
 function App() {
   return (
