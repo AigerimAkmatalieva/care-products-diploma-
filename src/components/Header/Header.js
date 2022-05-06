@@ -9,9 +9,7 @@ function Header({ image, title, p, children }) {
         <div className="col-7">
           <h1>{title}</h1>
           <p>{children}</p>
-          <a href="">
           <button>{p}</button>
-          </a>
         </div>
         <div className="col-5">
           <img src={image} alt="img" />
