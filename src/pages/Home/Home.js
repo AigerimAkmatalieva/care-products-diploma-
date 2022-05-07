@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import headerImage from "../../assets/hero.png";
+import Menu from "./Menu/Menu";
+
 
 function Home() {
   return (
@@ -14,6 +16,7 @@ function Home() {
         amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
         clita duo justo magna dolore erat amet
       </Header>
+      <Menu />
     </>
   );
 }
