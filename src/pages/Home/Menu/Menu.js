@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Menu.module.css";
-import cardImages from "../../assets/card.svg";
+import cardImages from "../../../assets/card.svg";
 
 function Menu() {
   return (
@@ -39,6 +39,6 @@ function Menu() {
       </div>
     </>
   );
-}
+  }
 
 export default Menu;
