@@ -3,7 +3,8 @@ import Header from "../../components/Header/Header";
 import headerImage from "../../assets/hero.png";
 import Menu from "./Menu/Menu";
 import Aboutus from "./Aboutus/Aboutus";
-
+import CategoryList from "../../components/CategoryList/CategoryList";
+import { getCategories } from "../../data/categories";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       </Header>
       <Menu />
       <Aboutus />
+      <CategoryList categories={getCategories()}/>
     </>
   );
 }
