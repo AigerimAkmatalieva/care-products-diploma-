@@ -1,6 +1,5 @@
 import Navbar from "../Navbar/Nav";
 import NavToggle from "../Navbar/NavToggle/NavToggle";
-import Logo from "../user-interface/Logo";
 import classes from "./Toolbar.module.css"
 
 
