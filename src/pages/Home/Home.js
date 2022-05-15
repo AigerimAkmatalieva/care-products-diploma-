@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import headerImage from "../../assets/hero.png";
 import Menu from "./Menu/Menu";
+import Aboutus from "./Aboutus/Aboutus";
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         clita duo justo magna dolore erat amet
       </Header>
       <Menu />
+      <Aboutus />
     </>
   );
 }

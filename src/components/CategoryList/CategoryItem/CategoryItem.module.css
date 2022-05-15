@@ -1,0 +1,29 @@
+.CategoryItem img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.CategoryItem {
+  position: relative;
+  flex: 0 0 33%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.CategoryItem a {
+  text-decoration: none;
+  text-align: center;
+
+  background-color: orangered;
+  color: white;
+  font-weight: 300;
+  font-size: 1.3rem;
+  max-width: 300px;
+  padding: .8rem 1rem 1.2rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  transition: .2s ease-in-out;
+}
+
