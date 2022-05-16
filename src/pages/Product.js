@@ -12,7 +12,7 @@ function Product() {
         <div style={{padding: "1.3rem", textAlign: "center", lineHeight: "50px"}}>
           <h2 style={{color: "orangered"}}>{product.title}</h2>
           <p style={{color: "white"}}>{product.description}</p>
-          <button style={{width: "120px", height: "30px", backgroundColor: "orangered", color: "white", fontSize: "1rem", fontWeight: "300"}}>
+          <button style={{width: "120px", height: "30px", backgroundColor: "orangered", color: "white", fontSize: "1rem", fontWeight: "300",borderRadius: "15px"}}>
            {product.price}$
           </button>
         </div>

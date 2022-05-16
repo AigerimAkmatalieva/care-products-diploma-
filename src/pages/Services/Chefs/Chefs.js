@@ -10,7 +10,7 @@ function Menu() {
   return (
     <>
       <div className="container">
-        <h1>Our Master Chefs</h1>
+        <h1 style={{color: "orangered", textAlign: "center"}}>Our Master Chefs</h1>
         <div className="row">
           <div className="col-3">
             <div className={classes.card}>
