@@ -1,5 +1,6 @@
 .card {
   margin: 5rem 0;
+  
 }
 .card h1 {
   color: orangered;
@@ -9,8 +10,8 @@
   color: white;
 }
 .card img {
-width: 300px;
-height: 400px;
+width: 600px;
+height: 500px;
 border-radius: 20%;
 }
 .card button {

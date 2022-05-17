@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./Aboutus.module.css";
-import cardImages from "../../../assets/about-1.jpg";
-import card1Images from "../../../assets/about-2.jpg";
+import cardImages from "../../../assets/restaranimage.svg";
 
 function Menu() {
   return (
@@ -11,19 +10,15 @@ function Menu() {
           <div className="col-7">
             <div className={classes.card}>
               <img src={cardImages} alt="Card" />
-              <img src={card1Images} alt="Card" />
             </div>
           </div>
           <div className="col-5">
             <div className={classes.card}>
               <h1>Welcome to restaurant</h1>
               <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Expedita minima tempore eius voluptatum animi ullam natus
-                facilis
+              The people, food and the prime locations make the perfect place good friends & family to come together and have great time.
               </p>
-            <button>Read more</button>
+            <button>View menu</button>
             </div>
           </div>
         </div>
