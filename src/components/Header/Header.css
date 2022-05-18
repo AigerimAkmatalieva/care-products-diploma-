@@ -12,7 +12,7 @@
   margin: 1rem 0;
 }
 .Header img {
-  animation: imgRotate 50s linear infinite;
+  animation: imgRotate 80s linear infinite;
 }
 
 @keyframes imgRotate { 
