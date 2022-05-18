@@ -3,6 +3,8 @@ import Header from "../components/Header/Header";
 import headerImage from "../assets/hero.png";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/products";
+import CategoryList from "../components/CategoryList/CategoryList";
+import { getCategories } from "../data/categories";
 
 function Products() {
   return (
@@ -15,8 +17,11 @@ function Products() {
         amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
         clita duo justo magna dolore erat amet
       </Header>
-      <h1 style={{color: "orangered", textAlign: "center"}}>Most popular items</h1>
+      <h1 style={{color: "orangered", textAlign: "center"}}>Categories</h1>
+      <CategoryList categories={getCategories()}/>
 
+
+      <h1 style={{color: "orangered", textAlign: "center"}}>Most popular items</h1>
       <ProductList products={getProducts()} />
 
     </>
