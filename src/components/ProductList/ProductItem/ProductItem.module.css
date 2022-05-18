@@ -1,43 +1,49 @@
 .ProductItem img {
-  max-width: 200px;
-  max-height: 250px;
+  max-width: 250px;
+  height: 200px;
   border-radius: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   border-bottom-left-radius: 2rem;
 }
 .ProductItem {
   position: relative;
-  flex: 0 0 50%;
+  flex: 0 0 32%;
   margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
+
 }
 .ProductItem a {
   text-decoration: none;
   text-align: center;
+
+   position: absolute;
+   left: 100px;
 
   background-color: orangered;
   color: white;
   font-weight: 300;
   font-size: 1.3rem;
   max-width: 200px;
+  height: 20px;
   padding: .8rem 1rem 1.2rem;
   text-align: center;
-  border-top-left-radius: 0;
-  border-top-right-radius: 3rem;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   transition: .2s ease-in-out;
 }
 .ProductItem .price {
-  position: absolute;
-  top: -1.5rem;
-  right: -15px;
+position: absolute;
+right: 100px;
+
+ max-width: 60px;
+ height: 30px;
+ padding: 10px 10px;
   
   background-color: orangered;
   color: white;
   font-size: 1.1rem;
-  padding: 1rem;
-  margin: 2.5rem;
+  
   text-align: center;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
