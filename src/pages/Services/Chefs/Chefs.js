@@ -1,59 +1,36 @@
 import React from "react";
 import classes from "./Chefs.module.css";
 
-import servicesImage from "../../../assets/services.jpg";
-import services1Image from "../../../assets/services1.jpg";
-import services2Image from "../../../assets/services2.jpg";
-import services3Image from "../../../assets/services3.jpg";
 
 function Menu() {
   return (
     <>
-      <div className="container">
-        <h1 style={{color: "orangered", textAlign: "center"}}>Our Master Chefs</h1>
-        <div className="row">
-          <div className="col-3">
-            <div className={classes.card}>
-              <img
-                src={servicesImage}
-                alt="breakfast"
-                className={classes.img}
-              />
-              <h1>Mark</h1>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className={classes.card}>
-              <img
-                src={services1Image}
-                alt="breakfast"
-                className={classes.img}
-              />
-              <h1>Elon</h1>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className={classes.card}>
-              <img
-                src={services2Image}
-                alt="breakfast"
-                className={classes.img}
-              />
-              <h1>Jan</h1>
-            </div>
-          </div>
-          <div className="col-3">
-            <div className={classes.card}>
-              <img
-                src={services3Image}
-                alt="breakfast"
-                className={classes.img}
-              />
-              <h1>Andrew</h1>
-            </div>
-          </div>
-        </div>
-      </div>
+     <main className={classes.pagecontent}>
+  <div className={classes.card}>
+    <div className={classes.content}>
+      <h2 className={classes.title}>John Priestley</h2>
+      <p className={classes.copy}>Plan your next beach trip with these fabulous destinations</p>
+    </div>
+  </div>
+  <div className={classes.card}>
+    <div className={classes.content}>
+      <h2 className={classes.title}>Mark Elon</h2>
+      <p className={classes.copy}>Plan your next beach trip with these fabulous destinations</p>
+    </div>
+  </div>
+  <div className={classes.card}>
+    <div className={classes.content}>
+      <h2 className={classes.title}>Tahir Gordon</h2>
+      <p className={classes.copy}>It's the desert you've always dreamed of</p>
+    </div>
+  </div>
+  <div className={classes.card}>
+    <div className={classes.content}>
+      <h2 className={classes.title}>Evgenie Zubov</h2>
+      <p className={classes.copy}>Seriously, straight up, just blast off into outer space today</p>
+    </div>
+  </div>
+</main>
     </>
   );
 }
