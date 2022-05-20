@@ -9,6 +9,7 @@
 .card {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-end;
   overflow: hidden;
   padding: 1rem;
