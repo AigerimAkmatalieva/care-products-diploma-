@@ -4,6 +4,7 @@ import headerImage from "../../assets/hero.png";
 import Menu from "./Menu/Menu";
 import Aboutus from "./Aboutus/Aboutus";
 import Chefs from "../Services/Chefs/Chefs"
+import Map from  "../Home/Map/Map"
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
       <Menu />
       <Aboutus />
       <Chefs />
+      <Map />
     </>
   );
 }
