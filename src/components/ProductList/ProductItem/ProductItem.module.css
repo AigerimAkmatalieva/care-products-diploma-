@@ -11,7 +11,6 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   text-align: center;
-
 }
 .ProductItem a {
   text-decoration: none;
@@ -38,8 +37,7 @@ right: 100px;
 
  max-width: 60px;
  height: 30px;
- padding: 10px 10px;
-  
+ padding: 10px 10px; 
   background-color: orangered;
   color: white;
   font-size: 1.1rem;

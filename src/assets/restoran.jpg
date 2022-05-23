@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://technext.github.io/pizza/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:focus>img:nth-child(1),.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1),.gm-control-active:disabled>img:nth-child(1){display:none}.gm-control-active:focus>img:nth-child(2),.gm-control-active:hover>img:nth-child(2){display:block}.gm-control-active:active>img:nth-child(3){display:block}.gm-control-active:disabled>img:nth-child(4){display:block}
+</style><link type="text/css" rel="stylesheet" href="./restoran_files/css"><link type="text/css" rel="stylesheet" href="./restoran_files/css(1)"><style>.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}.gm-ui-hover-effect>span{background-color:#000}@media (forced-colors:active),(prefers-contrast:more){.gm-ui-hover-effect>span{background-color:ButtonText}}
+</style><style>.gm-style .gm-style-cc a,.gm-style .gm-style-cc button,.gm-style .gm-style-cc span,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}.gm-style .gm-style-cc a,.gm-style .gm-style-cc button,.gm-style .gm-style-cc span{outline-offset:3px}
+</style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.dismissButton{background-color:#fff;border:1px solid #dadce0;color:#1a73e8;border-radius:4px;font-family:Roboto,sans-serif;font-size:14px;height:36px;cursor:pointer;padding:0 24px}.dismissButton:hover{background-color:rgba(66,133,244,.04);border:1px solid #d2e3fc}.dismissButton:focus{background-color:rgba(66,133,244,.12);border:1px solid #d2e3fc;outline:0}.dismissButton:focus:not(:focus-visible){background-color:#fff;border:1px solid #dadce0;outline:none}.dismissButton:focus-visible{background-color:rgba(66,133,244,.12);border:1px solid #d2e3fc;outline:0}.dismissButton:hover:focus{background-color:rgba(66,133,244,.16);border:1px solid #d2e2fd}.dismissButton:hover:focus:not(:focus-visible){background-color:rgba(66,133,244,.04);border:1px solid #d2e3fc}.dismissButton:hover:focus-visible{background-color:rgba(66,133,244,.16);border:1px solid #d2e2fd}.dismissButton:active{background-color:rgba(66,133,244,.16);border:1px solid #d2e2fd;box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15)}.dismissButton:disabled{background-color:#fff;border:1px solid #f1f3f4;color:#3c4043}
+</style><style>.gm-style-moc{background-color:rgba(0,0,0,.45);pointer-events:none;text-align:center;transition:opacity ease-in-out}.gm-style-mot{color:white;font-family:Roboto,Arial,sans-serif;font-size:22px;margin:0;position:relative;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%)}
+</style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+    <title>Pizza - Free Bootstrap 4 Template by Colorlib</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="./restoran_files/css(2)" rel="stylesheet">
+    <link href="./restoran_files/css(3)" rel="stylesheet">
+    <link href="./restoran_files/css(4)" rel="stylesheet">
+
+    <link rel="stylesheet" href="./restoran_files/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="./restoran_files/animate.css">
+    
+    <link rel="stylesheet" href="./restoran_files/owl.carousel.min.css">
+    <link rel="stylesheet" href="./restoran_files/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./restoran_files/magnific-popup.css">
+
+    <link rel="stylesheet" href="./restoran_files/aos.css">
+
+    <link rel="stylesheet" href="./restoran_files/ionicons.min.css">
+
+    <link rel="stylesheet" href="./restoran_files/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="./restoran_files/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="./restoran_files/flaticon.css">
+    <link rel="stylesheet" href="./restoran_files/icomoon.css">
+    <link rel="stylesheet" href="./restoran_files/style.css">
+  <style type="text/css">.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after { pointer-events: none !important; -webkit-animation-play-state: paused !important; animation-play-state: paused !important; };</style><script type="text/javascript" charset="UTF-8" src="./restoran_files/common.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./restoran_files/util.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./restoran_files/map.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./restoran_files/stats.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./restoran_files/onion.js.Без названия"></script><script type="text/javascript" charset="UTF-8" src="./restoran_files/controls.js.Без названия"></script></head>
+  <body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light scrolled awake" id="ftco-navbar">
+	    <div class="container">
+		      <a class="navbar-brand" href="https://technext.github.io/pizza/index.html"><span class="flaticon-pizza-1 mr-1"></span>Pizza<br><small>Delicous</small></a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="oi oi-menu"></span> Menu
+		      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="https://technext.github.io/pizza/index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="https://technext.github.io/pizza/menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="https://technext.github.io/pizza/services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="https://technext.github.io/pizza/blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="https://technext.github.io/pizza/about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="https://technext.github.io/pizza/contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel img owl-loaded owl-drag" style="background-image: url(images/bg_1.jpg);">
+      
+
+      
+
+      
+    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2698px, 0px, 0px); transition: all 0s ease 0s; width: 9443px;"><div class="owl-item cloned" style="width: 1349px;"><div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 order-md-last ftco-animate fadeInUp ftco-animated">
+            	<span class="subheading">Crunchy</span>
+              <h1 class="mb-4">Italian Pizza</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate fadeInUp ftco-animated">
+            	<img src="./restoran_files/bg_2.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div></div><div class="owl-item cloned" style="width: 1349px;"><div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate fadeInUp ftco-animated">
+            	<span class="subheading">Welcome</span>
+              <h1 class="mb-4">We cooked your desired Pizza Recipe</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div></div><div class="owl-item active" style="width: 1349px;"><div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 ftco-animate fadeInUp ftco-animated">
+            	<span class="subheading">Delicious</span>
+              <h1 class="mb-4">Italian Cuizine</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate fadeInUp ftco-animated">
+            	<img src="./restoran_files/bg_1.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div></div><div class="owl-item" style="width: 1349px;"><div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 order-md-last ftco-animate fadeInUp ftco-animated">
+            	<span class="subheading">Crunchy</span>
+              <h1 class="mb-4">Italian Pizza</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate fadeInUp ftco-animated">
+            	<img src="./restoran_files/bg_2.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div></div><div class="owl-item" style="width: 1349px;"><div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-7 col-sm-12 text-center ftco-animate fadeInUp ftco-animated">
+            	<span class="subheading">Welcome</span>
+              <h1 class="mb-4">We cooked your desired Pizza Recipe</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+
+          </div>
+        </div>
+      </div></div><div class="owl-item cloned" style="width: 1349px;"><div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 ftco-animate fadeInUp ftco-animated">
+            	<span class="subheading">Delicious</span>
+              <h1 class="mb-4">Italian Cuizine</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate fadeInUp ftco-animated">
+            	<img src="./restoran_files/bg_1.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div></div><div class="owl-item cloned" style="width: 1349px;"><div class="slider-item">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+
+            <div class="col-md-6 col-sm-12 order-md-last ftco-animate fadeInUp ftco-animated">
+            	<span class="subheading">Crunchy</span>
+              <h1 class="mb-4">Italian Pizza</h1>
+              <p class="mb-4 mb-md-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> <a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+            </div>
+            <div class="col-md-6 ftco-animate fadeInUp ftco-animated">
+            	<img src="./restoran_files/bg_2.png" class="img-fluid" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div></div></div></div><div class="owl-nav disabled"><button role="presentation" class="owl-prev"><span class="ion-md-arrow-back"></span></button><button role="presentation" class="owl-next"><span class="ion-chevron-right"></span></button></div><div class="owl-dots"><button class="owl-dot active"><span></span></button><button class="owl-dot"><span></span></button><button class="owl-dot"><span></span></button></div></section>
+
+    <section class="ftco-intro">
+    	<div class="container-wrap">
+    		<div class="wrap d-md-flex">
+	    		<div class="info">
+	    			<div class="row no-gutters">
+	    				<div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
+	    					<div class="icon"><span class="icon-phone"></span></div>
+	    					<div class="text">
+	    						<h3>000 (123) 456 7890</h3>
+	    						<p>A small river named Duden flows</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
+	    					<div class="icon"><span class="icon-my_location"></span></div>
+	    					<div class="text">
+	    						<h3>198 West 21th Street</h3>
+	    						<p>Suite 721 New York NY 10016</p>
+	    					</div>
+	    				</div>
+	    				<div class="col-md-4 d-flex ftco-animate fadeInUp ftco-animated">
+	    					<div class="icon"><span class="icon-clock-o"></span></div>
+	    					<div class="text">
+	    						<h3>Open Monday-Friday</h3>
+	    						<p>8:00am - 9:00pm</p>
+	    					</div>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="social d-md-flex pl-md-5 p-4 align-items-center">
+	    			<ul class="social-icon">
+              <li class="ftco-animate fadeInUp ftco-animated"><a href="https://technext.github.io/pizza/index.html#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate fadeInUp ftco-animated"><a href="https://technext.github.io/pizza/index.html#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate fadeInUp ftco-animated"><a href="https://technext.github.io/pizza/index.html#"><span class="icon-instagram"></span></a></li>
+            </ul>
+	    		</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-about d-md-flex">
+    	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
+    	<div class="one-half ftco-animate fadeInUp ftco-animated">
+        <div class="heading-section ftco-animate fadeInUp ftco-animated">
+          <h2 class="mb-4">Welcome to <span class="flaticon-pizza">Pizza</span> A Restaurant</h2>
+        </div>
+        <div>
+  				<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+  			</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-services">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center fadeInUp ftco-animated">
+            <h2 class="mb-4">Our Services</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+    		<div class="row">
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="flaticon-diet"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Healthy Foods</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5">
+              	<span class="flaticon-bicycle"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="heading">Fastest Delivery</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated">
+            <div class="media d-block text-center block-6 services">
+              <div class="icon d-flex justify-content-center align-items-center mb-5"><span class="flaticon-pizza-1"></span></div>
+              <div class="media-body">
+                <h3 class="heading">Original Recipes</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>    
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center fadeInUp ftco-animated">
+            <h2 class="mb-4">Hot Pizza Meals</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+    	</div>
+    	<div class="container-wrap">
+    		<div class="row no-gutters d-flex">
+    			<div class="col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
+    				<div class="services-wrap d-flex">
+    					<a href="https://technext.github.io/pizza/index.html#" class="img" style="background-image: url(images/pizza-1.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Italian Pizza</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+    						<p class="price"><span>$2.90</span> <a href="https://technext.github.io/pizza/index.html#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
+    				<div class="services-wrap d-flex">
+    					<a href="https://technext.github.io/pizza/index.html#" class="img" style="background-image: url(images/pizza-2.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Greek Pizza</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    						<p class="price"><span>$2.90</span> <a href="https://technext.github.io/pizza/index.html#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
+    				<div class="services-wrap d-flex">
+    					<a href="https://technext.github.io/pizza/index.html#" class="img" style="background-image: url(images/pizza-3.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Caucasian Pizza</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    						<p class="price"><span>$2.90</span> <a href="https://technext.github.io/pizza/index.html#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
+    				<div class="services-wrap d-flex">
+    					<a href="https://technext.github.io/pizza/index.html#" class="img order-lg-last" style="background-image: url(images/pizza-4.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>American Pizza</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
+    						<p class="price"><span>$2.90</span> <a href="https://technext.github.io/pizza/index.html#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
+    				<div class="services-wrap d-flex">
+    					<a href="https://technext.github.io/pizza/index.html#" class="img order-lg-last" style="background-image: url(images/pizza-5.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Tomatoe Pie</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    						<p class="price"><span>$2.90</span> <a href="https://technext.github.io/pizza/index.html#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 d-flex ftco-animate fadeInUp ftco-animated">
+    				<div class="services-wrap d-flex">
+    					<a href="https://technext.github.io/pizza/index.html#" class="img order-lg-last" style="background-image: url(images/pizza-6.jpg);"></a>
+    					<div class="text p-4">
+    						<h3>Margherita</h3>
+    						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    						<p class="price"><span>$2.90</span> <a href="https://technext.github.io/pizza/index.html#" class="ml-2 btn btn-white btn-outline-white">Order</a></p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+          <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
+            <h2 class="mb-4">Our Menu Pricing</h2>
+            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+            <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6">
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-1.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Italian Pizza</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+        			</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-2.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Hawaiian Pizza</span></h3>
+	        				<span class="price">$29.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-3.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Greek Pizza</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-4.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Bacon Crispy Thins</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+
+        	<div class="col-md-6">
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-5.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Hawaiian Special</span></h3>
+	        				<span class="price">$49.91</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-6.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Ultimate Overload</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-7.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Bacon Pizza</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        		<div class="pricing-entry d-flex ftco-animate fadeInUp ftco-animated">
+        			<div class="img" style="background-image: url(images/pizza-8.jpg);"></div>
+        			<div class="desc pl-3">
+	        			<div class="d-flex text align-items-center">
+	        				<h3><span>Ham &amp; Pineapple</span></h3>
+	        				<span class="price">$20.00</span>
+	        			</div>
+	        			<div class="d-block">
+	        				<p>A small river named Duden flows by their place and supplies</p>
+	        			</div>
+	        		</div>
+        		</div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-gallery">
+    	<div class="container-wrap">
+    		<div class="row no-gutters">
+					<div class="col-md-3 ftco-animate">
+						<a href="https://technext.github.io/pizza/index.html#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="https://technext.github.io/pizza/index.html#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="https://technext.github.io/pizza/index.html#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="https://technext.github.io/pizza/index.html#" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-search"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+
+		<section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(&quot;images/bg_2.jpg&quot;); background-position: 50% -1668.07px;" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+        	<div class="col-md-10">
+        		<div class="row">
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-pizza-1"></span></div>
+		              	<strong class="number" data-number="100">0</strong>
+		              	<span>Pizza Branches</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-medal"></span></div>
+		              	<strong class="number" data-number="85">0</strong>
+		              	<span>Number of Awards</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-laugh"></span></div>
+		              	<strong class="number" data-number="10567">0</strong>
+		              	<span>Happy Customer</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		              	<div class="icon"><span class="flaticon-chef"></span></div>
+		              	<strong class="number" data-number="900">0</strong>
+		              	<span>Staff</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-menu">
+    	<div class="container-fluid">
+    		<div class="row d-md-flex">
+	    		<div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0" style="background-image: url(images/about.jpg);">
+	    		</div>
+	    		<div class="col-lg-8 ftco-animate p-md-5">
+		    		<div class="row">
+		          <div class="col-md-12 nav-link-wrap mb-5">
+		            <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+		              <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="https://technext.github.io/pizza/index.html#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
+
+		              <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="https://technext.github.io/pizza/index.html#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Drinks</a>
+
+		              <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="https://technext.github.io/pizza/index.html#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Burgers</a>
+
+		              <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="https://technext.github.io/pizza/index.html#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Pasta</a>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex align-items-center">
+		            
+		            <div class="tab-content ftco-animate" id="v-pills-tabContent">
+
+		              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+		              	<div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/pizza-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/pizza-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/pizza-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/drink-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Lemonade Juice</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/drink-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Pineapple Juice</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/drink-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Soda Drinks</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/burger-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/burger-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/burger-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+
+		              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+		                <div class="row">
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/pasta-1.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/pasta-2.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              		<div class="col-md-4 text-center">
+		              			<div class="menu-wrap">
+		              				<a href="https://technext.github.io/pizza/index.html#" class="menu-img img mb-4" style="background-image: url(images/pasta-3.jpg);"></a>
+		              				<div class="text">
+		              					<h3><a href="https://technext.github.io/pizza/index.html#">Itallian Pizza</a></h3>
+		              					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+		              					<p class="price"><span>$2.90</span></p>
+		              					<p><a href="https://technext.github.io/pizza/index.html#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Recent from blog</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="https://technext.github.io/pizza/blog-single.html" class="block-20" style="background-image: url(&#39;images/image_1.jpg&#39;);">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="https://technext.github.io/pizza/index.html#">Sept 10, 2018</a></div>
+                  <div><a href="https://technext.github.io/pizza/index.html#">Admin</a></div>
+                  <div><a href="https://technext.github.io/pizza/index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="https://technext.github.io/pizza/index.html#">The Delicious Pizza</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="https://technext.github.io/pizza/blog-single.html" class="block-20" style="background-image: url(&#39;images/image_2.jpg&#39;);">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="https://technext.github.io/pizza/index.html#">Sept 10, 2018</a></div>
+                  <div><a href="https://technext.github.io/pizza/index.html#">Admin</a></div>
+                  <div><a href="https://technext.github.io/pizza/index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="https://technext.github.io/pizza/index.html#">The Delicious Pizza</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="https://technext.github.io/pizza/blog-single.html" class="block-20" style="background-image: url(&#39;images/image_3.jpg&#39;);">
+              </a>
+              <div class="text py-4 d-block">
+              	<div class="meta">
+                  <div><a href="https://technext.github.io/pizza/index.html#">Sept 10, 2018</a></div>
+                  <div><a href="https://technext.github.io/pizza/index.html#">Admin</a></div>
+                  <div><a href="https://technext.github.io/pizza/index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="https://technext.github.io/pizza/index.html#">The Delicious Pizza</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		
+		<section class="ftco-appointment">
+			<div class="overlay"></div>
+    	<div class="container-wrap">
+    		<div class="row no-gutters d-md-flex align-items-center">
+    			<div class="col-md-6 d-flex align-self-stretch">
+    				<div id="map" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div><button draggable="false" aria-label="Быстрые клавиши" title="Быстрые клавиши" type="button" style="background: none transparent; display: block; border: none; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; z-index: 1000002; outline-offset: 3px; right: 0px; bottom: 0px; transform: translateX(100%);"></button></div><div tabindex="0" aria-label="Карта" aria-roledescription="карта" role="region" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 993; transform: matrix(1, 0, 0, 1, -181, -34);"><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 993; transform: matrix(1, 0, 0, 1, -181, -34);"><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(6)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(7)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(8)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(9)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(10)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./restoran_files/vt(11)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><span id="FA899D37-50BC-42EE-A459-672918569E70" style="display: none;">Для навигации используйте клавиши со стрелками.</span></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div class="gm-style-moc" style="z-index: 4; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-mot"></p></div></div><iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;" src="./restoran_files/saved_resource.html"></iframe><div style="pointer-events: none; width: 100%; height: 100%; box-sizing: border-box; position: absolute; z-index: 1000002; opacity: 0; border: 2px solid rgb(26, 115, 232);"></div><div></div><div></div><div></div><div></div><div><button draggable="false" aria-label="Включить полноэкранный режим" title="Включить полноэкранный режим" type="button" aria-pressed="false" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; text-transform: none; appearance: none; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%200v6h2V2h4V0H0zm16%200h-4v2h4v4h2V0h-2zm0%2016h-4v2h6v-6h-2v4zM2%2012H0v6h6v-2H2v-4z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"></button></div><div></div><div></div><div></div><div></div><div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" data-control-width="40" data-control-height="113" style="margin: 10px; user-select: none; position: absolute; bottom: 127px; right: 40px;"><div class="gmnoprint" data-control-width="40" data-control-height="40" style="display: none; position: absolute;"><div style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 40px; height: 40px;"><button draggable="false" aria-label="Повернуть карту по часовой стрелке" title="Повернуть карту по часовой стрелке" type="button" class="gm-control-active" style="background: none; display: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; left: 0px; top: 0px; overflow: hidden; width: 40px; height: 40px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E" style="width: 20px; height: 20px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E" style="width: 20px; height: 20px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E" style="width: 20px; height: 20px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); display: none;"></div><button draggable="false" aria-label="Повернуть карту против часовой стрелки" title="Повернуть карту против часовой стрелки" type="button" class="gm-control-active" style="background: none; display: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; left: 0px; top: 0px; overflow: hidden; width: 40px; height: 40px; transform: scaleX(-1);"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E" style="width: 20px; height: 20px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E" style="width: 20px; height: 20px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h24v24H0V0z%22/%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M12.06%209.06l4-4-4-4-1.41%201.41%201.59%201.59h-.18c-2.3%200-4.6.88-6.35%202.64-3.52%203.51-3.52%209.21%200%2012.72%201.5%201.5%203.4%202.36%205.36%202.58v-2.02c-1.44-.21-2.84-.86-3.95-1.97-2.73-2.73-2.73-7.17%200-9.9%201.37-1.37%203.16-2.05%204.95-2.05h.17l-1.59%201.59%201.41%201.41zm8.94%203c-.19-1.74-.88-3.32-1.91-4.61l-1.43%201.43c.69.92%201.15%202%201.32%203.18H21zm-7.94%207.92V22c1.74-.19%203.32-.88%204.61-1.91l-1.43-1.43c-.91.68-2%201.15-3.18%201.32zm4.6-2.74l1.43%201.43c1.04-1.29%201.72-2.88%201.91-4.61h-2.02c-.17%201.18-.64%202.27-1.32%203.18z%22/%3E%3C/svg%3E" style="width: 20px; height: 20px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); display: none;"></div><button draggable="false" aria-label="Изменить угол обзора" title="Изменить угол обзора" type="button" class="gm-tilt gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; top: 0px; left: 0px; overflow: hidden; width: 40px; height: 40px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E" style="width: 18px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E" style="width: 18px;"><img alt="" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2016%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2016h8V9H0v7zm10%200h8V9h-8v7zM0%207h8V0H0v7zm10-7v7h8V0h-8z%22/%3E%3C/svg%3E" style="width: 18px;"></button></div></div><div style="position: absolute; left: 20px; top: 0px;"></div><div class="gmnoprint" data-control-width="40" data-control-height="81" style="position: absolute; left: 0px; top: 32px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button draggable="false" aria-label="Увеличить" title="Увеличить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23d1d1d1%22%20d%3D%22M18%207h-7V0H7v7H0v4h7v7h4v-7h7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" aria-label="Уменьшить" title="Уменьшить" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23d1d1d1%22%20d%3D%22M0%207h18v4H0V7z%22/%3E%3C/svg%3E" alt="" style="height: 18px; width: 18px;"></button></div></div></div></div><div><div style="margin: 0px 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" title="Открыть эту область в Google Картах (в новом окне)" aria-label="Открыть эту область в Google Картах (в новом окне)" href="https://maps.google.com/maps?ll=40.69847,-73.951442&amp;z=7&amp;t=m&amp;hl=ru-RU&amp;gl=US&amp;mapclient=apiv3" style="display: inline;"><div style="width: 66px; height: 26px;"><img alt="Google" src="data:image/svg+xml,%3Csvg%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2069%2029%22%3E%3Cg%20opacity%3D%22.3%22%20fill%3D%22%23000%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.5%22%3E%3Cpath%20d%3D%22M17.4706%207.33616L18.0118%206.79504%2017.4599%206.26493C16.0963%204.95519%2014.2582%203.94522%2011.7008%203.94522c-4.613699999999999%200-8.50262%203.7551699999999997-8.50262%208.395779999999998C3.19818%2016.9817%207.0871%2020.7368%2011.7008%2020.7368%2014.1712%2020.7368%2016.0773%2019.918%2017.574%2018.3689%2019.1435%2016.796%2019.5956%2014.6326%2019.5956%2012.957%2019.5956%2012.4338%2019.5516%2011.9316%2019.4661%2011.5041L19.3455%2010.9012H10.9508V14.4954H15.7809C15.6085%2015.092%2015.3488%2015.524%2015.0318%2015.8415%2014.403%2016.4629%2013.4495%2017.1509%2011.7008%2017.1509%209.04835%2017.1509%206.96482%2015.0197%206.96482%2012.341%206.96482%209.66239%209.04835%207.53119%2011.7008%207.53119%2013.137%207.53119%2014.176%208.09189%2014.9578%208.82348L15.4876%209.31922%2016.0006%208.80619%2017.4706%207.33616z%22/%3E%3Cpath%20d%3D%22M24.8656%2020.7286C27.9546%2020.7286%2030.4692%2018.3094%2030.4692%2015.0594%2030.4692%2011.7913%2027.953%209.39009%2024.8656%209.39009%2021.7783%209.39009%2019.2621%2011.7913%2019.2621%2015.0594c0%203.25%202.514499999999998%205.6692%205.6035%205.6692zM24.8656%2012.8282C25.8796%2012.8282%2026.8422%2013.6652%2026.8422%2015.0594%2026.8422%2016.4399%2025.8769%2017.2905%2024.8656%2017.2905%2023.8557%2017.2905%2022.8891%2016.4331%2022.8891%2015.0594%2022.8891%2013.672%2023.853%2012.8282%2024.8656%2012.8282z%22/%3E%3Cpath%20d%3D%22M35.7511%2017.2905v0H35.7469C34.737%2017.2905%2033.7703%2016.4331%2033.7703%2015.0594%2033.7703%2013.672%2034.7343%2012.8282%2035.7469%2012.8282%2036.7608%2012.8282%2037.7234%2013.6652%2037.7234%2015.0594%2037.7234%2016.4439%2036.7554%2017.2961%2035.7511%2017.2905zM35.7387%2020.7286C38.8277%2020.7286%2041.3422%2018.3094%2041.3422%2015.0594%2041.3422%2011.7913%2038.826%209.39009%2035.7387%209.39009%2032.6513%209.39009%2030.1351%2011.7913%2030.1351%2015.0594%2030.1351%2018.3102%2032.6587%2020.7286%2035.7387%2020.7286z%22/%3E%3Cpath%20d%3D%22M51.953%2010.4357V9.68573H48.3999V9.80826C47.8499%209.54648%2047.1977%209.38187%2046.4808%209.38187%2043.5971%209.38187%2041.0168%2011.8998%2041.0168%2015.0758%2041.0168%2017.2027%2042.1808%2019.0237%2043.8201%2019.9895L43.7543%2020.0168%2041.8737%2020.797%2041.1808%2021.0844%2041.4684%2021.7772C42.0912%2023.2776%2043.746%2025.1469%2046.5219%2025.1469%2047.9324%2025.1469%2049.3089%2024.7324%2050.3359%2023.7376%2051.3691%2022.7367%2051.953%2021.2411%2051.953%2019.2723v-8.8366zm-7.2194%209.9844L44.7334%2020.4196C45.2886%2020.6201%2045.878%2020.7286%2046.4808%2020.7286%2047.1616%2020.7286%2047.7866%2020.5819%2048.3218%2020.3395%2048.2342%2020.7286%2048.0801%2021.0105%2047.8966%2021.2077%2047.6154%2021.5099%2047.1764%2021.7088%2046.5219%2021.7088%2045.61%2021.7088%2045.0018%2021.0612%2044.7336%2020.4201zM46.6697%2012.8282C47.6419%2012.8282%2048.5477%2013.6765%2048.5477%2015.084%2048.5477%2016.4636%2047.6521%2017.2987%2046.6697%2017.2987%2045.6269%2017.2987%2044.6767%2016.4249%2044.6767%2015.084%2044.6767%2013.7086%2045.6362%2012.8282%2046.6697%2012.8282zM55.7387%205.22081v-.75H52.0788V20.4412H55.7387V5.22081z%22/%3E%3Cpath%20d%3D%22M63.9128%2016.0614L63.2945%2015.6492%2062.8766%2016.2637C62.4204%2016.9346%2061.8664%2017.3069%2061.0741%2017.3069%2060.6435%2017.3069%2060.3146%2017.2088%2060.0544%2017.0447%2059.9844%2017.0006%2059.9161%2016.9496%2059.8498%2016.8911L65.5497%2014.5286%2066.2322%2014.2456%2065.9596%2013.5589%2065.7406%2013.0075C65.2878%2011.8%2063.8507%209.39832%2060.8278%209.39832%2057.8445%209.39832%2055.5034%2011.7619%2055.5034%2015.0676%2055.5034%2018.2151%2057.8256%2020.7369%2061.0659%2020.7369%2063.6702%2020.7369%2065.177%2019.1378%2065.7942%2018.2213L66.2152%2017.5963%2065.5882%2017.1783%2063.9128%2016.0614zM61.3461%2012.8511L59.4108%2013.6526C59.7903%2013.0783%2060.4215%2012.7954%2060.9017%2012.7954%2061.067%2012.7954%2061.2153%2012.8161%2061.3461%2012.8511z%22/%3E%3C/g%3E%3Cpath%20d%3D%22M11.7008%2019.9868C7.48776%2019.9868%203.94818%2016.554%203.94818%2012.341%203.94818%208.12803%207.48776%204.69522%2011.7008%204.69522%2014.0331%204.69522%2015.692%205.60681%2016.9403%206.80583L15.4703%208.27586C14.5751%207.43819%2013.3597%206.78119%2011.7008%206.78119%208.62108%206.78119%206.21482%209.26135%206.21482%2012.341%206.21482%2015.4207%208.62108%2017.9009%2011.7008%2017.9009%2013.6964%2017.9009%2014.8297%2017.0961%2015.5606%2016.3734%2016.1601%2015.7738%2016.5461%2014.9197%2016.6939%2013.7454h-4.9931V11.6512h7.0298C18.8045%2012.0207%2018.8456%2012.4724%2018.8456%2012.957%2018.8456%2014.5255%2018.4186%2016.4637%2017.0389%2017.8434%2015.692%2019.2395%2013.9838%2019.9868%2011.7008%2019.9868zM29.7192%2015.0594C29.7192%2017.8927%2027.5429%2019.9786%2024.8656%2019.9786%2022.1884%2019.9786%2020.0121%2017.8927%2020.0121%2015.0594%2020.0121%2012.2096%2022.1884%2010.1401%2024.8656%2010.1401%2027.5429%2010.1401%2029.7192%2012.2096%2029.7192%2015.0594zM27.5922%2015.0594C27.5922%2013.2855%2026.3274%2012.0782%2024.8656%2012.0782S22.1391%2013.2937%2022.1391%2015.0594C22.1391%2016.8086%2023.4038%2018.0405%2024.8656%2018.0405S27.5922%2016.8168%2027.5922%2015.0594zM40.5922%2015.0594C40.5922%2017.8927%2038.4159%2019.9786%2035.7387%2019.9786%2033.0696%2019.9786%2030.8851%2017.8927%2030.8851%2015.0594%2030.8851%2012.2096%2033.0614%2010.1401%2035.7387%2010.1401%2038.4159%2010.1401%2040.5922%2012.2096%2040.5922%2015.0594zM38.4734%2015.0594C38.4734%2013.2855%2037.2087%2012.0782%2035.7469%2012.0782%2034.2851%2012.0782%2033.0203%2013.2937%2033.0203%2015.0594%2033.0203%2016.8086%2034.2851%2018.0405%2035.7469%2018.0405%2037.2087%2018.0487%2038.4734%2016.8168%2038.4734%2015.0594zM51.203%2010.4357v8.8366C51.203%2022.9105%2049.0595%2024.3969%2046.5219%2024.3969%2044.132%2024.3969%2042.7031%2022.7955%2042.161%2021.4897L44.0417%2020.7095C44.3784%2021.5143%2045.1997%2022.4588%2046.5219%2022.4588%2048.1479%2022.4588%2049.1499%2021.4487%2049.1499%2019.568V18.8617H49.0759C48.5914%2019.4612%2047.6552%2019.9786%2046.4808%2019.9786%2044.0171%2019.9786%2041.7668%2017.8352%2041.7668%2015.0758%2041.7668%2012.3%2044.0253%2010.1319%2046.4808%2010.1319%2047.6552%2010.1319%2048.5914%2010.6575%2049.0759%2011.2323H49.1499V10.4357H51.203zM49.2977%2015.084C49.2977%2013.3512%2048.1397%2012.0782%2046.6697%2012.0782%2045.175%2012.0782%2043.9267%2013.3429%2043.9267%2015.084%2043.9267%2016.8004%2045.175%2018.0487%2046.6697%2018.0487%2048.1397%2018.0487%2049.2977%2016.8004%2049.2977%2015.084zM54.9887%205.22081V19.6912H52.8288V5.22081H54.9887zM63.4968%2016.6854L65.1722%2017.8023C64.6301%2018.6072%2063.3244%2019.9869%2061.0659%2019.9869%2058.2655%2019.9869%2056.2534%2017.827%2056.2534%2015.0676%2056.2534%2012.1439%2058.2901%2010.1483%2060.8278%2010.1483%2063.3818%2010.1483%2064.6301%2012.1768%2065.0408%2013.2773L65.2625%2013.8357%2058.6843%2016.5623C59.1853%2017.5478%2059.9737%2018.0569%2061.0741%2018.0569%2062.1746%2018.0569%2062.9384%2017.5067%2063.4968%2016.6854zM58.3312%2014.9115L62.7331%2013.0884C62.4867%2012.4724%2061.764%2012.0454%2060.9017%2012.0454%2059.8012%2012.0454%2058.2737%2013.0145%2058.3312%2014.9115z%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div></div><div></div><div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 335px; bottom: 0px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><button draggable="false" aria-label="Быстрые клавиши" title="Быстрые клавиши" type="button" style="background: none; display: inline-block; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit;">Быстрые клавиши</button></div></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 127px; bottom: 0px; width: 208px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><button draggable="false" aria-label="Картографические данные" title="Картографические данные" type="button" style="background: none; border: 0px; margin: 0px; padding: 0px; text-transform: none; appearance: none; position: relative; cursor: pointer; user-select: none; color: rgb(0, 0, 0); font-family: inherit; line-height: inherit; display: none;">Картографические данные</button><span style="">Картографические данные © 2022 Google</span></div></div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/ru-RU_US/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(0, 0, 0);">Условия использования</a></div></div><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px; display: none;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Сообщить об ошибке на карте или снимке" dir="ltr" href="https://www.google.com/maps/@40.6984703,-73.9514422,7z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none; position: relative;">Сообщить об ошибке на карте</a></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(0, 0, 0); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Картографические данные © 2022 Google</div></div></div></div></div><div style="background-color: white; font-weight: 500; font-family: Roboto, sans-serif; padding: 15px 25px; box-sizing: border-box; top: 5px; border: 1px solid rgba(0, 0, 0, 0.12); border-radius: 5px; left: 50%; max-width: 375px; position: absolute; transform: translateX(-50%); width: calc(100% - 10px); z-index: 1;"><div><img alt="" src="./restoran_files/google_gray.svg" draggable="false" style="padding: 0px; margin: 0px; border: 0px; height: 17px; vertical-align: middle; width: 52px; user-select: none;"></div><div style="line-height: 20px; margin: 15px 0px;"><span style="color: rgba(0, 0, 0, 0.87); font-size: 14px;">При загрузке Google&nbsp;Карт на этой странице возникла проблема.</span></div><table style="width: 100%;"><tr><td style="line-height: 16px; vertical-align: middle;"><a href="https://developers.google.com/maps/documentation/javascript/error-messages?utm_source=maps_js&amp;utm_medium=degraded&amp;utm_campaign=billing#api-key-and-billing-errors" target="_blank" rel="noopener" style="color: rgba(0, 0, 0, 0.54); font-size: 12px;">Вы владелец этого сайта?</a></td><td style="text-align: right;"><button class="dismissButton">ОК</button></td></tr></table></div></div>
+    			</div>
+	    		<div class="col-md-6 appointment ftco-animate">
+	    			<h3 class="mb-3">Contact Us</h3>
+	    			<form action="https://technext.github.io/pizza/index.html#" class="appointment-form">
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="First Name">
+		    				</div>
+	    				</div>
+	    				<div class="d-me-flex">
+	    					<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="Last Name">
+		    				</div>
+	    				</div>
+	    				<div class="form-group">
+	              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+	            </div>
+	            <div class="form-group">
+	              <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
+	            </div>
+	    			</form>
+	    		</div>    			
+    		</div>
+    	</div>
+    </section>
+
+    <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://technext.github.io/pizza/index.html#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://technext.github.io/pizza/index.html#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://technext.github.io/pizza/index.html#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="https://technext.github.io/pizza/index.html#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="https://technext.github.io/pizza/index.html#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="https://technext.github.io/pizza/index.html#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="https://technext.github.io/pizza/index.html#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="https://technext.github.io/pizza/index.html#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="https://technext.github.io/pizza/index.html#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                    <div><a href="https://technext.github.io/pizza/index.html#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="https://technext.github.io/pizza/index.html#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="https://technext.github.io/pizza/index.html#" class="py-2 d-block">Cooked</a></li>
+                <li><a href="https://technext.github.io/pizza/index.html#" class="py-2 d-block">Deliver</a></li>
+                <li><a href="https://technext.github.io/pizza/index.html#" class="py-2 d-block">Quality Foods</a></li>
+                <li><a href="https://technext.github.io/pizza/index.html#" class="py-2 d-block">Mixed</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><a href="https://technext.github.io/pizza/index.html#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="https://technext.github.io/pizza/index.html#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright ©<script>document.write(new Date().getFullYear());</script>2022 All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"></circle><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"></circle></svg></div>
+
+
+  <script src="./restoran_files/jquery.min.js.Без названия"></script>
+  <script src="./restoran_files/jquery-migrate-3.0.1.min.js.Без названия"></script>
+  <script src="./restoran_files/popper.min.js.Без названия"></script>
+  <script src="./restoran_files/bootstrap.min.js.Без названия"></script>
+  <script src="./restoran_files/jquery.easing.1.3.js.Без названия"></script>
+  <script src="./restoran_files/jquery.waypoints.min.js.Без названия"></script>
+  <script src="./restoran_files/jquery.stellar.min.js.Без названия"></script>
+  <script src="./restoran_files/owl.carousel.min.js.Без названия"></script>
+  <script src="./restoran_files/jquery.magnific-popup.min.js.Без названия"></script>
+  <script src="./restoran_files/aos.js.Без названия"></script>
+  <script src="./restoran_files/jquery.animateNumber.min.js.Без названия"></script>
+  <script src="./restoran_files/bootstrap-datepicker.js.Без названия"></script>
+  <script src="./restoran_files/jquery.timepicker.min.js.Без названия"></script>
+  <script src="./restoran_files/scrollax.min.js.Без названия"></script>
+  <script src="./restoran_files/js"></script>
+  <script src="./restoran_files/google-map.js.Без названия"></script>
+  <script src="./restoran_files/main.js.Без названия"></script>
+    
+  
+</body></html>
