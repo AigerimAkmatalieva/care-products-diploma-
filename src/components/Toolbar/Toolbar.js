@@ -8,7 +8,6 @@ function Toolbar({ toggleDrawer }) {
     <nav className={classes.Toolbar}>
       <div className={classes.container}>        
         <Navbar />
-        <NavToggle callback={toggleDrawer} />
       </div>
     </nav>
   );
