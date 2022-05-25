@@ -9,17 +9,17 @@ import menu6Image from "../assets/header.jpg";
 const products = [
   {
     image: menu1Image,
-    productId: "Shashlik",
-    categoryId: "Shashlik",
-    title: "Shashlik",
+    productId: "Kebab",
+    categoryId: "Kebab",
+    title: "Kebab",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
     price: 155,
   },
   {
     image: menu2Image,
-    productId: "Shashlik",
-    categoryId: "Shashlik",
-    title: "Shashlik",
+    productId: "Kebab",
+    categoryId: "Kebab",
+    title: "Kebab",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
     price: 130,
   },

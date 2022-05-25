@@ -11,8 +11,8 @@ const categories = [
   },
   {
     image: shashlikImage,
-    categoryId: "Shashlik",
-    title: "Shashlik",
+    categoryId: "Kebab",
+    title: "Kebab",
     description: `Shashlik is a dish of skewered and grilled cubes of meat, similar to or synonymous with shish kebab. It is known traditionally by various other names in the Caucasus, Eastern Europe and Central Asia,[2][3] and from the 19th century became popular as shashlik across much of the Russian Empire and nowadays in the Russian Federation and former Soviet republics.`,
   },
   {
