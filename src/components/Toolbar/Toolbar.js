@@ -1,5 +1,4 @@
 import Navbar from "../Navbar/Nav";
-import NavToggle from "../Navbar/NavToggle/NavToggle";
 import classes from "./Toolbar.module.css"
 
 
