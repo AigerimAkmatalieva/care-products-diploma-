@@ -16,7 +16,7 @@ function Category() {
     < >
       <div style={{display: "flex", padding: "3rem 5rem"}}>
         <div style={{padding: "1.3rem", textAlign: "center", lineHeight: "50px"}}>
-          <h2 style={{color: "orangered"}}>{category.title}</h2>
+          <h2 style={{color: "rgb(236, 141, 15)"}}>{category.title}</h2>
           <p style={{color: "white"}}>{category.description}</p>
         </div>
         <img style={{width: "300px", height: "300px", padding: "100px 0 0 0"}} src={category.image} alt={category.title} />

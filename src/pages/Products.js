@@ -17,11 +17,11 @@ function Products() {
         amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
         clita duo justo magna dolore erat amet
       </Header>
-      <h1 style={{color: "orangered", textAlign: "center"}}>Categories</h1>
+      <h1 style={{color: "rgb(236, 141, 15)", textAlign: "center"}}>Categories</h1>
       <CategoryList categories={getCategories()}/>
 
 
-      <h1 style={{color: "orangered", textAlign: "center"}}>Most popular items</h1>
+      <h1 style={{color: "rgb(236, 141, 15)", textAlign: "center"}}>Most popular items</h1>
       <ProductList products={getProducts()} />
 
     </>

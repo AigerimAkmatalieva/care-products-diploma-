@@ -2,7 +2,6 @@
   max-width: 250px;
   height: 200px;
   border-radius: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   border-bottom-left-radius: 2rem;
 }
 .ProductItem {
@@ -11,6 +10,13 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
   text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 37px;
+  min-width: 250px;
+  min-height: 380px;
+  background-color: rgb(236, 141, 15);
+  border-radius: 30px;
 }
 .ProductItem a {
   text-decoration: none;
@@ -19,26 +25,24 @@
    position: absolute;
    left: 100px;
 
-  background-color: orangered;
   color: white;
-  font-weight: 300;
-  font-size: 1.3rem;
-  max-width: 200px;
-  height: 20px;
-  padding: .8rem 1rem 1.2rem;
+  font-weight: 700;
+  font-size: 1.9rem;
+  padding: 2px;
+  display: flex;
   text-align: center;
-  border-radius: 10px;
+  justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   transition: .2s ease-in-out;
 }
 .ProductItem .price {
 position: absolute;
-right: 100px;
+right: 110px;
+bottom: 50px;
 
  max-width: 60px;
  height: 30px;
  padding: 10px 10px; 
-  background-color: orangered;
   color: white;
   font-size: 1.1rem;
   

@@ -1,12 +1,12 @@
-import steakImage from "../assets/aboutsteik.jpg";
+import steakImage from "../assets/sushi.jpg";
 import pizzaImage from "../assets/pizza.jpg";
 import shashlikImage from "../assets/hero.png";
 
 const categories = [
   {
     image: steakImage,
-    categoryId: "Steak",
-    title: "Steak",
+    categoryId: "Sushi",
+    title: "Sushi",
     description: `A steak, also sometimes called "beef steak", is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though it can also be pan-fried. Steak can also be cooked in sauce, such as in steak and kidney pie, or minced and formed into patties, such as hamburgers.`,
   },
   {

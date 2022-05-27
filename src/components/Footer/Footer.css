@@ -4,7 +4,7 @@
   text-align: center;
   color: white;
   flex-wrap: wrap;
-  border-top: 1px solid orangered;
+  border-top: 1px solid rgb(236, 141, 15);
 }
 .Footer .line-h {
   line-height: 35px;
@@ -12,7 +12,7 @@
 .Footer h1 {
   font-size: 1.4rem;
   font-weight: 600;
-  color: orangered;
+  color: rgb(236, 141, 15);
 }
 .Footer p {
   font-size: .8rem;

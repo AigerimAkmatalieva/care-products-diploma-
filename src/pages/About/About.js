@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import headerImage from "../../assets/aboutsteik.jpg";
+import headerImage from "../../assets/sushi.jpg";
 
 function About() {
   return (

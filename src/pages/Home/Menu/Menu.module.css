@@ -1,15 +1,17 @@
 .card {
-  color: orangered;
-  margin: 10px;
-  padding: 10px;
+  color: rgb(236, 141, 15);
+  margin:10px;
+  padding: 20px;
   border-radius: 20%;
   display: inline-block;
   width: 200px;
   background-color: white;
+  background-image: url(../../../assets/pizza-card.jpg);
+
 }
 .card:hover {
   color: white;
-  background-color: orangered;
+  background-color: rgb(236, 141, 15);
 }
 @media (max-width: 887px) {
   .row {

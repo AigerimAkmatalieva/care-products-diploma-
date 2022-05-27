@@ -8,10 +8,10 @@
   border-bottom: 3px solid transparent;
 }
 .NavItem a.active {
-  color: orangered;
+  color: rgb(236, 141, 15);
 }
 .NavItem a:hover {
-  color: orangered;
+  color: rgb(236, 141, 15);
 }
 @media (max-width: 850px) {
   .NavItem a {
