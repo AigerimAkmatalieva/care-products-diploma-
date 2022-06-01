@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-import headerImage from "../../assets/hero.png";
+import headerImage from "../../assets/pizza.jpg";
 import Menu from "./Menu/Menu";
 import Aboutus from "./Aboutus/Aboutus";
 import Map from  "../Home/Map/Map"
