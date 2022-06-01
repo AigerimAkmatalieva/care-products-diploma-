@@ -1,9 +1,9 @@
 import menu1Image from "../assets/sushi-card.jpg";
 import menu2Image from "../assets/sushi-card1.jpg";
 import menu3Image from "../assets/sushi-card2.jpg";
-import menu4Image from "../assets/pizza-card2.jpg";
-import menu5Image from "../assets/pizza-header.jpg";
-import menu6Image from "../assets/pizza-card1.jpg";
+import menu4Image from "../assets/rolly.png";
+import menu5Image from "../assets/rollyImage.png";
+import menu6Image from "../assets/rollyimage1.png";
 
 
 const products = [
@@ -12,48 +12,54 @@ const products = [
     productId: "Sushi",
     categoryId: "Sushi",
     title: "Sushi",
+    order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
-    price: 155,
+    price: 4,
   },
   {
     image: menu2Image,
     productId: "Sushi",
     categoryId: "Sushi",
     title: "Sushi",
+    order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
-    price: 130,
+    price: 6,
   },
   {
     image: menu3Image,
     productId: "Sushi",
     categoryId: "Sushi",
     title: "Sushi",
+    order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
-    price: 120,
+    price: 3,
   },
   {
     image: menu4Image,
-    productId: "Pizza",
-    categoryId: "Pizza",
-    title: "Pizza",
+    productId: "Rolly",
+    categoryId: "Rolly",
+    title: "Rolly",
+    order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
-    price: 115,
+    price: 4,
   },
   {
     image: menu5Image,
-    productId: "Pizza",
-    categoryId: "Pizza",
-    title: "Pizza",
+    productId: "Rolly",
+    categoryId: "Rolly",
+    title: "Rolly",
+    order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
-    price: 115,
+    price: 6,
   },
   {
     image: menu6Image,
-    productId: "Pizza",
-    categoryId: "Pizza",
-    title: "Pizza",
+    productId: "Rolly",
+    categoryId: "Rolly",
+    title: "Rolly",
+    order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
-    price: 115,
+    price: 3,
   },
 ];
 

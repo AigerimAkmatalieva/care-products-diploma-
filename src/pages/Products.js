@@ -21,7 +21,7 @@ function Products() {
       <CategoryList categories={getCategories()}/>
 
 
-      <h1 style={{color: "rgb(236, 141, 15)", textAlign: "center"}}>Most popular items</h1>
+      <h1 style={{color: "rgb(236, 141, 15)", textAlign: "center", padding: "70px"}}>Most popular items</h1>
       <ProductList products={getProducts()} />
 
     </>

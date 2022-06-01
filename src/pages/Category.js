@@ -19,7 +19,7 @@ function Category() {
           <h2 style={{color: "rgb(236, 141, 15)"}}>{category.title}</h2>
           <p style={{color: "white"}}>{category.description}</p>
         </div>
-        <img style={{width: "300px", height: "300px", padding: "100px 0 0 0"}} src={category.image} alt={category.title} />
+        <img style={{width: "300px", height: "300px", padding: "100px 0 0 0", borderRadius: "40px"}} src={category.image} alt={category.title} />
       </div>
       <ProductList products={getProducts(category.categoryId)} />
     </>
