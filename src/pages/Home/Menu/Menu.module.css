@@ -1,16 +1,16 @@
 .card {
   color: rgb(236, 141, 15);
-  margin:10px;
+  margin:5px;
   padding: 20px;
   border-radius: 20%;
   display: inline-block;
-  width: 200px;
+  width: 190px;
   background-color: rgba(255, 255, 255, 0.836);
   box-shadow: 0px -4px 0px rgb(236, 141, 15), 0px 5px 0px rgb(236, 141, 15);
 }
 .card p {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .card:hover {
   color: white;
