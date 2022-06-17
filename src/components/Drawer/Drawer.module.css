@@ -3,7 +3,7 @@
   background-color:  rgb(4, 12, 36);
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  width: 220px;
+  width: 300px;
   overflow: hidden;
 
   position: fixed;
@@ -12,7 +12,7 @@
   bottom: 0;
   z-index: 100;
 
-  transform: translateX(-350px);
+  transform: translateX(-300px);
   transition: transform .3s;
 
 }
@@ -41,6 +41,6 @@
     display: none;
   }
   .Drawer .content {
-    transform: translateX(-350px);
+    transform: translateX(-300px);
   }
 } 
