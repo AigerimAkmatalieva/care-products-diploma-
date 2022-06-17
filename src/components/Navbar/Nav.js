@@ -1,17 +1,13 @@
 import classes from "./Nav.module.css";
-import Logo from "../user-interface/Logo";
 import NavItem from "../Navbar/NavItem/NavItem";
 import orders from "../../assets/orders.svg";
 import nav from "../../assets/nav.svg";
 import contacts from "../../assets/contacts.svg";
-import NavToggle from "./NavToggle/NavToggle";
 
 function Nav() {
   return (
     <nav className={classes.Nav}>
       <div className={classes.container}>
-        <NavToggle />
-        <Logo className="Logo"/>
         <ul>
           <NavItem url="/home">Home</NavItem>
           <NavItem url="/about">About</NavItem>

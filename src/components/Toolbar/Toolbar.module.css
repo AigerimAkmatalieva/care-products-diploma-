@@ -1,5 +1,5 @@
-.Nav {
-  background-color:rgb(22, 10, 88);
+.Toolbar {
+  background-color: rgb(4, 12, 36);
   color: rgb(236, 141, 15);
   padding: 0 1.5rem;
   font-size: 1.9rem;
@@ -8,17 +8,22 @@
   margin: 0 2rem;
   border-bottom: 1px solid rgb(236, 141, 15);
 }
-.Nav .container {
+.Toolbar .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 987px;
   margin: 0 auto;
   padding: 0 1rem;
 
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-@media (max-width: 880px) {
+
+@media (max-width: 850px) {
   .Toolbar ul {
     display: none;
   }
-} 
+}

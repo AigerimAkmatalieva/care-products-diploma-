@@ -18,3 +18,9 @@
     flex: 0 0 100%;
   }
 }
+@media (max-width: 850px) {
+  .Nav {
+   border-bottom: none;
+   border-right: 5px solid transparent;
+  }
+}

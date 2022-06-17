@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Aboutus.module.css";
 import cardImages from "../../../assets/restaranimage.svg";
+import { Link } from "react-router-dom";
 
 function Menu() {
   return (
@@ -18,7 +19,7 @@ function Menu() {
               <p>
               The people, food and the prime locations make the perfect place good friends & family to come together and have great time.
               </p>
-            <button>View menu</button>
+              <Link to="/menu"><button>View menu</button></Link>
             </div>
           </div>
         </div>
