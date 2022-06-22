@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import CartButton from "../components/CartButton/CartButton";
 import { getProduct } from "../data/products";
 
 function Product() {
@@ -15,9 +16,11 @@ function Product() {
           <button style={{width: "120px", height: "30px", backgroundColor: "rgb(236, 141, 15)", color: "white", fontSize: "1rem", fontWeight: "300",borderRadius: "15px"}}>
            {product.price}$
           </button>
+          <CartButton productId={params.productId} />
         </div>
         <img style={{width: "400px"}} src={product.image} alt={product.title} />
       </div>
+    
     </>
   );
 }
