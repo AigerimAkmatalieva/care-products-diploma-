@@ -18,7 +18,7 @@ const products = [
   },
   {
     image: menu2Image,
-    productId: "Sushi",
+    productId: "Sushi1",
     categoryId: "Sushi",
     title: "Sushi",
     order: "Order",
@@ -27,7 +27,7 @@ const products = [
   },
   {
     image: menu3Image,
-    productId: "Sushi",
+    productId: "Sushi2",
     categoryId: "Sushi",
     title: "Sushi",
     order: "Order",
@@ -45,7 +45,7 @@ const products = [
   },
   {
     image: menu5Image,
-    productId: "Rolly",
+    productId: "Rolly1",
     categoryId: "Rolly",
     title: "Rolly",
     order: "Order",
@@ -54,7 +54,7 @@ const products = [
   },
   {
     image: menu6Image,
-    productId: "Rolly",
+    productId: "Rolly2",
     categoryId: "Rolly",
     title: "Rolly",
     order: "Order",
