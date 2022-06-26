@@ -25,7 +25,7 @@ function Nav() {
             <img src={nav} alt="nav" />
           </NavItem>
           <NavItem url="/orders">
-            <img src={orders} alt="orders" className="logotip" />({number})
+            <img src={orders} alt="orders" className="logotip" />{number}
           </NavItem>
         </ul>
       </div>
