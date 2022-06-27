@@ -1,0 +1,43 @@
+.CartItem {
+  font-family: 'Libre Baskerville', serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+.CartItem .CartItem2 {
+  display: flex;
+  padding: 50px;
+  margin: 0 2rem;
+}
+.quantity button {
+  font-family: 'Libre Baskerville', serif;
+  background-color: rgb(236, 141, 15);
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: rgb(236, 141, 15);
+}
+.subtotal {
+  margin: 0 4rem;
+}
+.subtotal button {
+  font-family: 'Libre Baskerville', serif;
+  background-color: rgb(236, 141, 15);
+  color: white;
+  width: 120px;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 2rem;
+  border-color: rgb(236, 141, 15);
+}
+.image img {
+  width: 140px;
+  height: 140px;
+}
+.title {
+  color: orange;
+  text-decoration: none;
+}

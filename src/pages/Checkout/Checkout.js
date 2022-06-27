@@ -1,32 +1,12 @@
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../../data/products";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { checkout } from "../../redux/cartSlice";
-import classes from "./Checkout.module.css";
+import classes from "./Checkout.module.css"
 
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const items = useSelector((store) => store.cart.items);
-  const products = getProducts();
-
-  let total = 0;
-  let output = products
-    .filter((product) => items[product.productId])
-    .map((product) => {
-      total += product.price * items[product.productId];
-
-      return (
-        <div>
-          <Link to="">{product.title}</Link> {items[product.productId]} $
-          {product.price * items[product.productId]}
-        </div>
-      );
-    });
-
-  if (!output.length) {
-    output = "No items in the cart.";
-  }
+  const items = useSelector(store => store.cart.items);
 
   function onCheckout(event) {
     event.preventDefault();
@@ -34,9 +14,8 @@ function Checkout() {
     const formData = new FormData(event.target);
     const order = { items: items, ...Object.fromEntries(formData.entries()) };
     dispatch(checkout(order));
-    navigate("/");
+    navigate('/');
   }
-
   return (
     <>
       <form onSubmit={onCheckout} className={classes.form}>

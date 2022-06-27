@@ -5,7 +5,7 @@
   border-radius: 20%;
   display: inline-block;
   width: 190px;
-  box-shadow: 0px -2px 10px rgb(236, 141, 15), 5px 6px 0px rgb(236, 141, 15);
+  box-shadow: 0px -2px 10px rgb(236, 141, 15), 1px -2px 0px rgb(236, 141, 15);
 }
 .card p {
   font-size: 1rem;
@@ -13,7 +13,7 @@
   color: white;
 }
 .card:hover {
-  box-shadow: 0px -4px 25px rgb(236, 141, 15), 0px 5px 0px rgb(236, 141, 15);
+  box-shadow: 0px -4px 25px rgb(236, 141, 15), 0px -2px 0px rgb(236, 141, 15);
 }
 @media (max-width: 887px) {
   .row {
