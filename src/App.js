@@ -10,17 +10,10 @@ import Products from "./pages/Products";
 import Home from "./pages/Home/Home"
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
-import { useEffect } from "react";
-import { useDispatch } from "react-redux";
 import Checkout from "./pages/Checkout/Checkout";
 
 function App() {
-  const dispatch = useDispatch();
   
-  useEffect(() => {
-    dispatch({ type: 'cart/restore' });
-  }, []);
-
   return (
     <div className="App">
       <Layout>
