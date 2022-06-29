@@ -1,6 +1,5 @@
 import Header from "../../components/Header/Header";
 import headerImage from "../../assets/pizza.jpg";
-import "../style.css";
 import Chefs from "./Chefs/Chefs";
 
 function Delivery() {

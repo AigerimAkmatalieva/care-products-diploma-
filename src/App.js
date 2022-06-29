@@ -1,5 +1,4 @@
 import About from "./pages/About/About";
-import Contacts from "./pages/Contacts";
 import Delivery from "./pages/Services/Delivery";
 import Search from "./pages/Search";
 import Orders from "./pages/Orders/Orders"
@@ -10,7 +9,9 @@ import Products from "./pages/Products";
 import Home from "./pages/Home/Home"
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
-import Checkout from "./pages/Checkout/Checkout";
+import Checkout from "./pages/Checkout";
+import Auth from "./pages/Auth";
+import SignOut from "./pages/SignOut";
 
 function App() {
   
@@ -26,10 +27,12 @@ function App() {
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:categoryId" element={<Category/>} />
           <Route path="/service" element={<Delivery />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/nav" element={<Search />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/signout" element={<SignOut />} />
         </Routes>
       </Layout>
 
