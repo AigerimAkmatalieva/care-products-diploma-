@@ -7,7 +7,6 @@ function Cart() {
   return (
     <>
       <CartDisplay actions />
-
       <Link to="/checkout" className={classes.total}><button>Checkout</button></Link>
     </>
   );
