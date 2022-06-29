@@ -1,11 +1,16 @@
 .CartItem {
   font-family: 'Libre Baskerville', serif;
   display: flex;
-  flex-wrap: wrap;
+ justify-content: space-between;
+ text-align: center;
 }
-.CartItem .CartItem2 {
+.span {
   display: flex;
   padding: 50px;
+  margin: 0 30px;
+}
+.CartItem .CartItem1 {
+  display: flex;
   margin: 0 2rem;
 }
 .quantity button {
@@ -33,11 +38,12 @@
   border-radius: 2rem;
   border-color: rgb(236, 141, 15);
 }
-.image img {
-  width: 140px;
-  height: 140px;
+.image {
+  width: 120px;
+  height: 120px;
 }
 .title {
   color: orange;
   text-decoration: none;
 }
+
