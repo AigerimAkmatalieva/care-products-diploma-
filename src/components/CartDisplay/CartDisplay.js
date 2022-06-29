@@ -29,8 +29,8 @@ function CartDisplay({ actions }) {
   return (
     <div className={classes.CartDisplay}>
       {output}
-      <hr />
       Total: ${total}
+      <hr />
     </div>
   );
 }
