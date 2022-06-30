@@ -20,7 +20,7 @@ export default function CartItem({ product, actions, quantity }) {
             </Link>
          <span className={classes.span}>
          <div className={classes.hero}>
-            ${product.price * quantity}
+            ${product.price}
           </div>
           <div className={classes.quantity}>
             {actions ? (
