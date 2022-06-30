@@ -1,6 +1,6 @@
-import Header from "../../components/Header/Header";
-import headerImage from "../../assets/rolly.jpg";
-import Map from "../Home/Map/Map";
+import Header from "../components/Header/Header";
+import headerImage from "../assets/rolly.jpg";
+import Map from "./Home/Map/Map";
 
 function About() {
   return (

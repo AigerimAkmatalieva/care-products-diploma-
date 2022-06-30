@@ -5,7 +5,10 @@ import classes from "./ProductItem.module.css";
 function ProductItem({ product }) {
   return (
     <div className={classes.ProductItem}>
+      <div className={classes.img__container}>
       <img src={product.image} alt="product.title" id="img"/>
+      </div>
+      
       <Link to={"/products/" + product.productId}>{product.title}</Link>
       <br />
       Lychee, mango, black sesame, red masago, soft cheese, nori, rice

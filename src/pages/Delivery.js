@@ -1,6 +1,6 @@
-import Header from "../../components/Header/Header";
-import headerImage from "../../assets/pizza.jpg";
-import Menu from "../Home/Menu/Menu";
+import Header from "../components/Header/Header";
+import headerImage from "../assets/pizza.jpg";
+import Menu from "./Home/Menu/Menu";
 
 function Delivery() {
   return (

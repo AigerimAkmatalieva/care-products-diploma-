@@ -4,6 +4,7 @@
  justify-content: space-between;
  text-align: center;
  flex-wrap: wrap;
+ display: flex;
 }
 .span {
   display: flex;
@@ -13,6 +14,7 @@
 .CartItem .CartItem1 {
   display: flex;
   margin: 0 2rem;
+  
 }
 .quantity button {
   font-family: 'Libre Baskerville', serif;
@@ -49,14 +51,30 @@
   padding: 50px;
 }
 .hero {
-  margin-right: 50px;
   box-shadow: 0px 0px 2px rgb(236, 141, 15), 0px 0px 2px rgb(236, 141, 15);
-  padding: 2px;
+ margin: 50px 0;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
  .image {
    margin: 0 auto;
  }
+ .CartItem {
+   /* max-width: 500px; */
+   margin: 0 auto;
+ }
+ .CartItem1 {
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+   margin: 0 auto;
+ }
+ .quantity {
+  display: flex;
+  gap: 10px;
+}
+.hero {
+  margin: 10px 0;
+}
 
 } 

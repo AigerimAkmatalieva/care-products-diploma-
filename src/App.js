@@ -1,7 +1,7 @@
-import About from "./pages/About/About";
-import Delivery from "./pages/Services/Delivery";
+import About from "./pages/About";
+import Delivery from "./pages/Delivery";
 import Search from "./pages/Search";
-import Orders from "./pages/Orders/Orders"
+import Orders from "./pages/Orders"
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";

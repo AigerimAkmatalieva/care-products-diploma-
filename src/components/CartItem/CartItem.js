@@ -18,10 +18,10 @@ export default function CartItem({ product, actions, quantity }) {
            <Link to="" className={classes.title}>
               {product.title}{" "}
             </Link>
-         <span className={classes.span}>
-         <div className={classes.hero}>
-            ${product.price}
+            <div className={classes.hero}>${product.price}
           </div>
+            
+         <span className={classes.span}>
           <div className={classes.quantity}>
             {actions ? (
               <button onClick={() => dispatch(decrement(product.productId))}>
