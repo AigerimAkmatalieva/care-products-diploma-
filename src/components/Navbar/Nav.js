@@ -1,7 +1,6 @@
 import classes from "./Nav.module.css";
 import NavItem from "../Navbar/NavItem/NavItem";
 import orders from "../../assets/orders.svg";
-import nav from "../../assets/nav.svg";
 import auth from "../../assets/contacts.svg";
 import { useSelector } from "react-redux";
 
