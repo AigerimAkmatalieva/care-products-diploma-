@@ -1,5 +1,5 @@
 .Checkout {
-  padding: 120px;
+  padding: 140px;
   display: flex;
   height: 100%;
   min-height: 400px;
@@ -49,6 +49,11 @@
   padding: 10px;
   font-size: 18px;
   font-weight: 500;
+}
+.Checkout h4 {
+  color: rgb(4, 12, 36);
+  font-size: 20px;
+  font-weight: 600;
 }
 @media (max-width: 850px) {
   .checkout {
