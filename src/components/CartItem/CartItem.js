@@ -15,11 +15,12 @@ export default function CartItem({ product, actions, quantity }) {
             alt={product.title}
             className={classes.image}
           />
-         <span className={classes.span}>
-         <div className={classes.hero}>
-            <Link to="" className={classes.title}>
+           <Link to="" className={classes.title}>
               {product.title}{" "}
             </Link>
+         <span className={classes.span}>
+         <div className={classes.hero}>
+            ${product.price * quantity}
           </div>
           <div className={classes.quantity}>
             {actions ? (
@@ -35,7 +36,6 @@ export default function CartItem({ product, actions, quantity }) {
             ) : null}
           </div>
           <div className={classes.subtotal}>
-            ${product.price * quantity}
             {actions ? (
               <button onClick={() => dispatch(remove(product.productId))}>
                 Delete

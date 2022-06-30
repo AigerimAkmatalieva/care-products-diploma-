@@ -3,6 +3,7 @@
   display: flex;
  justify-content: space-between;
  text-align: center;
+ flex-wrap: wrap;
 }
 .span {
   display: flex;
@@ -45,5 +46,9 @@
 .title {
   color: orange;
   text-decoration: none;
+  padding: 50px;
 }
-
+.hero {
+  margin-right: 50px;
+  box-shadow: 0px 0px 2px rgb(236, 141, 15), 0px 0px 2px rgb(236, 141, 15);
+}

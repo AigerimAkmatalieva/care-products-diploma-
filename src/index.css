@@ -104,32 +104,3 @@ form input {
   border-radius: 30px;
 }
 
-/*Checkout.js*/
-.form-check {
-  display: flex;
-  width: 600px;
-  height: 200px;
-  margin: 50px auto;
-  text-align: center;
-  box-shadow: 0px 5px 10px rgb(236, 141, 15), 1px -2px 0px rgb(236, 141, 15);
-  padding: 30px;
-  border-radius: 30px;
-}
-.form-check2 {
-  text-align: center;
-  padding: 0 10px;
-  color: orange;
-}
-.checkout {
-  font-family: 'Libre Baskerville', serif;
-  background-color: rgb(236, 141, 15);
-  color: white;
-  margin: 1rem 0;
-  width: 150px;
-  height: 50px;
-  font-size: 1rem;
-  font-weight: 300;
-  border-radius: 2rem;
-  border-color: rgb(236, 141, 15);
-  text-align: center;
-}

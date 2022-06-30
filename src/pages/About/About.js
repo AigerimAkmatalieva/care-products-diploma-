@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import headerImage from "../../assets/rolly.jpg";
+import Map from "../Home/Map/Map";
 
 function About() {
   return (
@@ -9,6 +10,7 @@ function About() {
         amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
         clita duo justo magna dolore erat amet
       </Header>
+      <Map />
     </>
   );
 }

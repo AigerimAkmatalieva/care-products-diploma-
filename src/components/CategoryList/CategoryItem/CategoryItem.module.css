@@ -25,4 +25,13 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   transition: .2s ease-in-out;
 }
+@media (max-width: 850px) {
+  .CategoryItem {
+    text-align: center;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 

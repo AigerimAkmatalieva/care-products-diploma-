@@ -4,12 +4,6 @@ import rollyImage from "../assets/rolly.jpg";
 
 const categories = [
   {
-    image: steakImage,
-    categoryId: "Sushi",
-    title: "Sushi",
-    description: `A steak, also sometimes called "beef steak", is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though it can also be pan-fried. Steak can also be cooked in sauce, such as in steak and kidney pie, or minced and formed into patties, such as hamburgers.`,
-  },
-  {
     image: pizzaImage,
     categoryId: "Pizza",
     title: "Pizza",
@@ -20,7 +14,13 @@ const categories = [
     categoryId: "Rolly",
     title: "Rolly",
     description: `Shashlik is a dish of skewered and grilled cubes of meat, similar to or synonymous with shish kebab. It is known traditionally by various other names in the Caucasus, Eastern Europe and Central Asia,[2][3] and from the 19th century became popular as shashlik across much of the Russian Empire and nowadays in the Russian Federation and former Soviet republics.`,
-  }
+  },
+  {
+    image: steakImage,
+    categoryId: "Sushi",
+    title: "Sushi",
+    description: `A steak, also sometimes called "beef steak", is a meat generally sliced across the muscle fibers, potentially including a bone. It is normally grilled, though it can also be pan-fried. Steak can also be cooked in sauce, such as in steak and kidney pie, or minced and formed into patties, such as hamburgers.`,
+  },
 ];
 
 export function getCategories() {

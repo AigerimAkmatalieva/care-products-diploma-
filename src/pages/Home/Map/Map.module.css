@@ -1,6 +1,9 @@
+.Map {
+  padding: 100px 0;
+}
 @media (max-width: 800px) {
   .Map iframe{
-    width: 500px;
+    width: 450px;
     height: 400px;
     transition: height .3s, width .3s;
   } 
@@ -8,14 +11,14 @@
 
 @media (max-width: 470px) {
   .Map iframe{
-    width: 300px;
+    width: 280px;
     height: 200px;
   } 
 }
 
 @media (max-width: 400px) {
   .Map iframe{
-    width: 250px;
+    width: 220px;
     height: 170px;
   } 
 }

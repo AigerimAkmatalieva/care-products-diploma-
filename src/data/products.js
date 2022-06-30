@@ -60,7 +60,7 @@ const products = [
     order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
     price: 3,
-  },
+  }
 ];
 
 export function getProducts(categoryId) {

@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header";
 import headerImage from "../../assets/pizza.jpg";
-import Chefs from "./Chefs/Chefs";
+import Menu from "../Home/Menu/Menu";
 
 function Delivery() {
   return (
@@ -10,7 +10,7 @@ function Delivery() {
         amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
         clita duo justo magna dolore erat amet
       </Header>
-      <Chefs />
+      <Menu />
     </>
   );
 }

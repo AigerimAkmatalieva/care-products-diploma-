@@ -29,8 +29,8 @@
   margin: 15px;
 }
 @media (max-width: 850px) {
-  .Footer {
-    flex-wrap: wrap;
-    margin: 2rem
+  .Footer .row {
+    display: flex;
+    flex-direction: column;
   }
 }

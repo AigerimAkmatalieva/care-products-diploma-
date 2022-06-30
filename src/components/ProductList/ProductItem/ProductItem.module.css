@@ -1,8 +1,6 @@
 .ProductItem img {
-  max-width: 250px;
+  max-width: 200px;
   height: 200px;
-  border-radius: 2rem;
-  border-bottom-left-radius: 2rem;
   position: absolute;
   left: 20%;
   top: -30%;
@@ -10,14 +8,14 @@
 .ProductItem {
   position: relative;
   flex: 0 0 32%;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; 
   margin-top: 7rem;
   text-align: center;
   font-weight: 600;
   font-size: 1rem;
   line-height: 37px;
   min-width: 250px;
-  min-height: 380px;
+  max-height: 380px;
   background-color: rgba(255, 255, 255, 0.836);
   border-radius: 30px;
   box-shadow: 0 0 10px rgb(236, 141, 15);
@@ -60,4 +58,12 @@
   border-radius: 50%;
   background-color: rgb(236, 141, 15);
   padding: 5px;
+}
+@media (max-width: 990px) {
+  .ProductItem {
+    text-align: center;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+  }
 }

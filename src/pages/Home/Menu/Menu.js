@@ -5,7 +5,8 @@ import cardImages from "../../../assets/card.svg";
 function Menu() {
   return (
     <>
-      <div className="container">
+     <div className={classes.Menu}>
+     <div className="container">
         <div className="row">
           <div className="col-3">
           <div className={classes.card}>
@@ -37,6 +38,7 @@ function Menu() {
           </div>
         </div>
       </div>
+     </div>
     </>
   );
   }
