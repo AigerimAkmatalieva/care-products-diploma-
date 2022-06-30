@@ -11,14 +11,15 @@
 
 @media (max-width: 470px) {
   .Map iframe{
-    width: 350px;
+    width: 450px;
     height: 200px;
   } 
 }
 
 @media (max-width: 400px) {
   .Map iframe{
-    width: 280px;
+    width: 380px;
     height: 170px;
+    margin: 0 15px;
   } 
 }
