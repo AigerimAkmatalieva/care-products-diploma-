@@ -5,11 +5,13 @@ import { useNavigate } from "react-router-dom";
 export default function SignOut() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-
   useEffect(() => {
     dispatch({ type: 'auth/init' });
     navigate('/');
-  }, []);
+  }, [dispatch,navigate]);
+
+
+
 
   return 'asd';
-}
+} 
