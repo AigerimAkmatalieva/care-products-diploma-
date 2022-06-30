@@ -66,7 +66,7 @@ function CheckoutItem() {
             <label>
               Select payment
               <br/>
-              <input type="radio" name="payment" required />Сash payment
+              <input type="radio" name="payment" required />Cash payment
             </label>
           </div>
         </div>
