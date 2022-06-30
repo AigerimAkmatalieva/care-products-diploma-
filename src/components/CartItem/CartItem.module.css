@@ -52,3 +52,13 @@
   margin-right: 50px;
   box-shadow: 0px 0px 2px rgb(236, 141, 15), 0px 0px 2px rgb(236, 141, 15);
 }
+
+@media (max-width: 850px) {
+ .image {
+   margin: 0 auto;
+ }
+ .hero {
+  display: flex;
+  flex-direction: column;
+ }
+} 

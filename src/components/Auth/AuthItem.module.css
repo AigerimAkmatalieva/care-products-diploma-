@@ -1,8 +1,8 @@
 .AuthItem {
-  padding: 70px;
+  padding: 110px;
   display: flex;
   height: 100%;
-  min-height: 400px;
+  min-height: 300px;
   font-family: 'Libre Baskerville', serif;
   display: flex;
   justify-content: center;
