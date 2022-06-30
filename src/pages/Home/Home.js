@@ -20,7 +20,6 @@ function Home() {
         clita duo justo magna dolore erat amet
       </Header>
       <Menu />
-      <CategoryList categories={getCategories()}/>
       <Map />
     </>
   );
