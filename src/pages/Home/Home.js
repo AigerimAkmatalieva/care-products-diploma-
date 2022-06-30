@@ -2,9 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import headerImage from "../../assets/pizza.jpg";
 import Menu from "./Menu/Menu";
-import Map from  "../Home/Map/Map"
-import CategoryList from "../../components/CategoryList/CategoryList";
-import { getCategories } from "../../data/categories";
+import Map from  "../Home/Map/Map";
 
 
 function Home() {
