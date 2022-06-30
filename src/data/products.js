@@ -12,8 +12,7 @@ import menu11Image from "../assets/desertsushi2.png";
 import menu12Image from "../assets/imbir.png";
 import menu13Image from "../assets/soya-sous.png";
 import menu14Image from "../assets/vasabi.png";
-import menu15Image from "../assets/sous.png";
-
+import menu16Image from "../assets/rolly4.png";
 
 const products = [
   {
@@ -64,7 +63,7 @@ const products = [
   {
     image: menu3Image,
     productId: "Sushi2",
-    categoryId: "Rolly-Lite",
+    categoryId: "Sushi",
     title: "Sushi",
     order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
@@ -116,9 +115,18 @@ const products = [
     price: 6,
   },
   {
+    image: menu16Image,
+    productId: "Rolly",
+    categoryId: "Rolly",
+    title: "Rolly",
+    order: "Order",
+    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
+    price: 3,
+  },
+  {
     image: menu12Image,
     productId: "Sous4",
-    categoryId: "Sous",
+    categoryId: "Rolly",
     title: "Ginger",
     order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
@@ -127,7 +135,7 @@ const products = [
   {
     image: menu13Image,
     productId: "Sous3",
-    categoryId: "Sous",
+    categoryId: "Rolly",
     title: "Soya-Sous",
     order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
@@ -142,15 +150,7 @@ const products = [
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
     price: 3,
   },
-  {
-    image: menu15Image,
-    productId: "Sous1",
-    categoryId: "Sushi",
-    title: "Sous",
-    order: "Order",
-    description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
-    price: 3,
-  },
+  
 ];
 
 export function getProducts(categoryId) {
