@@ -136,7 +136,7 @@ const products = [
   {
     image: menu14Image,
     productId: "Sous2",
-    categoryId: "Sous",
+    categoryId: "Rolly",
     title: "Vasabi",
     order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
@@ -145,7 +145,7 @@ const products = [
   {
     image: menu15Image,
     productId: "Sous1",
-    categoryId: "Sous",
+    categoryId: "Sushi",
     title: "Sous",
     order: "Order",
     description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.`,
